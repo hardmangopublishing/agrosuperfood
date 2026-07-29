@@ -35,6 +35,15 @@ DISCLOSURE = (
 )
 
 
+def linked_disclosure(tag):
+    """Same statement, with only the word Amazon carrying the tagged link.
+    The tag comes from products.json so it stays single-source."""
+    url = f"https://www.amazon.com/?tag={tag}"
+    anchor = (f'<a href="{url}" rel="sponsored nofollow noopener" '
+              f'target="_blank">Amazon</a>')
+    return DISCLOSURE.replace("Amazon Associate", f"{anchor} Associate", 1)
+
+
 # ----------------------------------------------------------------- frontmatter
 def split_front(text):
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
@@ -246,14 +255,14 @@ def shell(meta, content, nav_items, extra_rail=""):
   <h1>{H.escape(title)}</h1>
   <p class="standfirst">{H.escape(desc)}</p>
   <p class="byline">Updated {meta.get("updated", "")}</p>
-  <p class="disclosure">{DISCLOSURE}</p>
+  <p class="disclosure">{linked_disclosure(TAG)}</p>
   {content}
   {extra_rail}
 </main>
 
 <footer class="site"><div>
   <p>{BRAND} &middot; Independent guides to growing and using whole foods at home.</p>
-  <p>{DISCLOSURE}</p>
+  <p>{linked_disclosure(TAG)}</p>
   <p>Educational content only. Verify current food safety guidance with your national authority before eating any raw sprouted food.</p>
 </div></footer>
 </body>

@@ -139,7 +139,8 @@ def check_build(docs):
     on_disk = set(os.listdir(HERE))
     for f in built:
         t = read(os.path.join(HERE, f))
-        if "Amazon Associate" not in t:
+        # marker must survive the word "Amazon" being wrapped in an anchor
+        if "Associate this site earns from qualifying purchases" not in t:
             fail(f"{f}: affiliate disclosure missing")
         broken = [h for h in re.findall(r'(?:href|src)="([^":]+)"', t)
                   if not h.startswith(("#", "//")) and h not in on_disk]
@@ -241,6 +242,24 @@ PLACEHOLDERS = [
 ]
 
 
+def check_dates(docs):
+    """A typo in a frontmatter year ships a page dated in the future."""
+    print("\n=== DATES ===")
+    from datetime import date
+    today = date.today().isoformat()
+    bad = []
+    for f, m, b in docs:
+        d = m.get("updated", "")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d):
+            bad.append(f"{f}: malformed updated date {d!r}")
+        elif d > today:
+            bad.append(f"{f}: updated date {d} is in the future")
+    if bad:
+        for x in bad: fail(x)
+    else:
+        ok(f"all {len(docs)} dates well formed and not in the future")
+
+
 def check_placeholders():
     """Nothing shipped may advertise itself as unfinished."""
     print("\n=== PLACEHOLDERS ===")
@@ -272,6 +291,7 @@ def main():
     check_build(docs)
     check_affiliate(docs)
     check_svgs()
+    check_dates(docs)
     check_placeholders()
     print("\n" + "=" * 62)
     if FAILS:
