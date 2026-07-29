@@ -10,9 +10,11 @@ This site is dedicated to my grandfather, Pietro Agro, who was a farmer in Sicil
 
 !!fig img-pietro-agro
 
-Castrofilippo, Sicily, 1979. He is the man in the cap, holding the mule. The two of us up on the pack saddle are my brother and me. I am the older one, at the front, holding the reins.
+Castrofilippo, Sicily, 1979. He is the man in the cap, holding the mule. The two of us up on the pack saddle are my brother Louis and me. I am the older one, at the front, holding the reins.
 
-My brother is gone now, and so is my grandfather. This photograph is the only place the three of us are still standing in the same street on the same morning, which is most of why it is on a website rather than in a drawer.
+Louis and my grandfather are both gone now. This photograph is the only place the three of us are still standing in the same street on the same morning, which is most of why it is on a website rather than in a drawer.
+
+Louis was not a farmer. Neither am I. That is close to the point of this page. The work stopped being necessary in one generation and became a choice in the next, and everything on this site had to be picked back up deliberately by people who were handed it and put it down.
 
 I have thought about that morning since. The boy holding the reins grew up and built a site explaining how to keep cabbage under brine and why grain stores better than flour. My grandfather needed none of it explained. He was walking it up the hill while the two of us sat on top of the load.
 
@@ -22,7 +24,7 @@ The site is called agrosuperfood because Agro is the family name. Pietro in Sici
 
 He would have found the word superfood funny. What this site calls sprouting, fermenting, drying, and milling, he called Tuesday. None of it was a wellness practice. It was how a household ate through a winter using what a season had already given it, and how nothing that could be kept was allowed to be wasted.
 
-Every subject on this site was ordinary knowledge in a farming house and had to be looked up again by the generation in the photograph. Two percent salt and a weight on the cabbage. Grain stored whole because flour does not keep. Fruit dried on a tray because a glut in September is a jar in February. A mule loaded because the work was up the hill and someone had to carry it.
+Every subject on this site was ordinary knowledge in that house and had to be looked up again by the boys on the mule. Two percent salt and a weight on the cabbage. Grain stored whole because flour does not keep. Fruit dried on a tray because a glut in September is a jar in February. A mule loaded because the work was up the hill and someone had to carry it.
 
 ## What he would have thought of the equipment
 
