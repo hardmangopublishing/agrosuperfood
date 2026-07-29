@@ -118,7 +118,7 @@ The reasonable path is to try the windowsill first, because it is free and it ma
 ## Do this now
 
 1. Grow one tray of radish on your existing windowsill before buying anything. It will answer the question in four days.
-2. If the stems stretch and pale after uncovering, buy one LED bar and one plug in timer, and nothing else.
+2. If the stems stretch and pale after uncovering, buy {{product:led-grow-bar}}, and nothing else.
 3. Set the timer for fourteen hours and mount the bar roughly a hand's width above the tray.
 4. Raise the light as the crop grows so the gap stays roughly constant through to harvest.
 

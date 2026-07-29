@@ -55,7 +55,7 @@ None of this means do not sprout. It means the risk is real, it is concentrated 
 
 Three form factors cover almost every home setup, and the choice is less about quality than about which failure mode you are personally likely to produce.
 
-A wide-mouth jar with a mesh lid is the cheapest entry and the most demanding to run. It costs very little, it fits in a dish rack, and it produces excellent sprouts. It also relies entirely on you. The jar must sit mouth down at a steep angle so residual water drains instead of pooling at the base, and it must be rinsed on schedule, twice a day at minimum and three times in warm weather. Jars fail when their owner goes away for a weekend. The diagram on this page shows the drainage geometry, because forty degrees is the difference between a clean batch and a sour one.
+A wide-mouth jar with a mesh lid is the cheapest entry and the most demanding to run. {{product:sprouting-jar-kit}} covers it in one purchase. It costs very little, it fits in a dish rack, and it produces excellent sprouts. It also relies entirely on you. The jar must sit mouth down at a steep angle so residual water drains instead of pooling at the base, and it must be rinsed on schedule, twice a day at minimum and three times in warm weather. Jars fail when their owner goes away for a weekend. The diagram on this page shows the drainage geometry, because forty degrees is the difference between a clean batch and a sour one.
 
 !!fig img-jar-drain
 

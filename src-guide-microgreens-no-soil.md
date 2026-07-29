@@ -27,7 +27,7 @@ Two practical consequences follow. Fast crops suit soilless growing better than 
 
 ## The medium options
 
-**Hemp mats.** Cut to fit, lay flat, sow on top. Roots knit into the fibres and lift out in one piece at harvest, which makes cleanup close to trivial. Hemp holds water well and is the most forgiving of the mat options. It is also the most expensive per tray, and that cost recurs with every crop.
+**Hemp mats.** {{product:hemp-mats}} are cut to fit, lay flat, and take seed on top. Roots knit into the fibres and lift out in one piece at harvest, which makes cleanup close to trivial. Hemp holds water well and is the most forgiving of the mat options. It is also the most expensive per tray, and that cost recurs with every crop.
 
 **Jute mats.** Similar handling, usually cheaper, and slightly less absorbent. Jute can carry a faint smell when wet that some people notice and most do not. It performs well with larger seeds and less well with the finest.
 
@@ -67,7 +67,7 @@ Weigh rather than guess once you find a density you like. A kitchen scale and a 
 
 Soilless media dry faster than soil, and that is the main ongoing discipline.
 
-Water from below wherever possible. Sit the growing tray inside a solid tray, add water to the lower one, and let the medium draw it up. Bottom watering keeps the leaves dry, which matters because wet foliage in a warm covered tray is how mould starts.
+Water from below wherever possible. Sit {{product:microgreen-tray-set}} inside {{product:microgreen-tray-solid}}, add water to the lower one, and let the medium draw it up. Bottom watering keeps the leaves dry, which matters because wet foliage in a warm covered tray is how mould starts.
 
 Check daily and expect to water more often than you would with soil, particularly with mats. A hemp mat that dries completely will not always recover, and the seedlings standing in it certainly will not.
 

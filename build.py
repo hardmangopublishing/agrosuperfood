@@ -65,10 +65,31 @@ def split_front(text):
 # ----------------------------------------------------------------- inline
 def inline(t):
     t = H.escape(t, quote=False)
+    t = product_links(t)
     t = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', t)
     t = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"(?<![*\w])\*([^*\n]+)\*(?!\*)", r"<em>\1</em>", t)
     return t
+
+
+PRODUCTS = json.load(open(os.path.join(HERE, "products.json"), encoding="utf-8"))
+PMAP = {p["id"]: p for p in PRODUCTS["products"]}
+TAG = PRODUCTS["tag"]
+
+
+def product_links(t):
+    """Render {{product:id}} as a tagged, rel-sponsored Amazon link.
+    ASINs live only in products.json; nothing here is hardcoded."""
+    def sub(m):
+        pid = m.group(1)
+        p = PMAP.get(pid)
+        if not p or p["asin"] == "PENDING":
+            print(f"  ! product token '{pid}' has no live ASIN; rendered as plain text")
+            return p["link_text"] if p else pid
+        url = f"https://www.amazon.com/dp/{p['asin']}?tag={TAG}"
+        return (f'<a href="{url}" rel="sponsored nofollow noopener" '
+                f'target="_blank">{H.escape(p["link_text"])}</a>')
+    return re.sub(r"\{\{product:([a-z0-9-]+)\}\}", sub, t)
 
 
 def figure(key, illos):
@@ -273,20 +294,10 @@ def main():
 
     # ---- index
     cards = ""
-    planned = [
-        ("Cold Press and Juicing", "Juicers, presses, and what survives the process."),
-        ("Dehydrating and Preserving", "Trays, airflow, and storage that actually lasts."),
-        ("Fermentation", "Crocks, airlocks, and the safety line."),
-        ("Superfood Powders", "What the labels claim and what the research supports."),
-        ("Grain, Nut and Seed Processing", "Mills, roasters, and fresh flour at home."),
-    ]
     for m, _ in hubs:
         cards += (f'<div class="hubcard"><h3><a href="{m["slug"]}.html">'
                   f'{H.escape(m["title"])}</a></h3>'
                   f'<p>{H.escape(m.get("description", ""))}</p></div>')
-    for t, d in planned:
-        cards += (f'<div class="hubcard"><h3>{H.escape(t)}</h3>'
-                  f'<p>{H.escape(d)}</p><p class="soon">In production</p></div>')
 
     idx_meta = {
         "title": "Grow it, then eat it",

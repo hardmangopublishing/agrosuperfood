@@ -31,7 +31,7 @@ The result looks correct. A finished mung sprout is the crisp white thing sold i
 
 ## Buying the seed
 
-Buy beans sold explicitly for sprouting rather than grocery aisle beans intended for cooking. The distinction is about how the lot was handled and tested, not about the variety, and it is the single most useful safety decision available to you. The [hub page](hub-sprouting.html) covers why contamination is a seed problem rather than a kitchen problem.
+Buy {{product:mung-bean-bulk}} rather than grocery aisle beans intended for cooking. The distinction is about how the lot was handled and tested, not about the variety, and it is the single most useful safety decision available to you. The [hub page](hub-sprouting.html) covers why contamination is a seed problem rather than a kitchen problem.
 
 Look for whole, unsplit, uniformly coloured beans. Split beans will not sprout, and a bag with many splits will leave dead matter sitting in a warm wet jar for four days. A small amount of variation in size is normal and harmless.
 

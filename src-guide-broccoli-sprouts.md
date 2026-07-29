@@ -78,7 +78,7 @@ Broccoli seed is small, round, and inclined to clump. Everything below exists be
 
 Broccoli seed selection matters more than it does for larger beans, for two reasons that compound each other.
 
-Buy seed sold explicitly for sprouting rather than garden seed intended for planting. Garden seed is frequently treated with fungicide, which is entirely appropriate for something going into soil and entirely inappropriate for something you intend to eat four days later. The treatment is not always obvious from the packet, and this is the one distinction genuinely worth being fussy about.
+Buy {{product:broccoli-seed}} rather than garden seed intended for planting. Garden seed is frequently treated with fungicide, which is entirely appropriate for something going into soil and entirely inappropriate for something you intend to eat four days later. The treatment is not always obvious from the packet, and this is the one distinction genuinely worth being fussy about.
 
 Beyond that, look for suppliers who describe their pathogen testing rather than simply asserting that the seed is safe. Contamination in sprouts arrives on the seed far more often than it arrives in the kitchen, and fine seed offers a great deal more surface area per gram than a mung bean does. The supplier is your main control point.
 

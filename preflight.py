@@ -150,17 +150,48 @@ def check_build(docs):
 
 
 # ------------------------------------------------------------------ AFFILIATE
-def check_affiliate():
+def check_affiliate(docs):
     print("\n=== AFFILIATE RAILS ===")
     d = json.load(open(os.path.join(HERE, "products.json"), encoding="utf-8"))
+    pmap = {p["id"]: p for p in d["products"]}
     ok(f"manifest parses, {len(d['products'])} product(s)")
+
+    # a token inside markdown link brackets would nest one anchor in another
+    for f, m, b in docs:
+        if "]({{product:" in b:
+            fail(f"{f}: product token wrapped in markdown link syntax; use the bare token")
+
+    # every {{product:id}} token must resolve to a LIVE asin
+    used = set()
+    for f, m, b in docs:
+        for pid in re.findall(r"\{\{product:([a-z0-9-]+)\}\}", b):
+            used.add(pid)
+            if pid not in pmap:
+                fail(f"{f}: product token '{pid}' is not in products.json")
+            elif pmap[pid]["asin"] == "PENDING":
+                fail(f"{f}: product token '{pid}' has no live ASIN - link would break")
+    if used: ok(f"{len(used)} product token(s) resolve to live ASINs")
+    unused = [p["id"] for p in d["products"] if p["id"] not in used]
+    if unused: warn(f"products in manifest with no link on any page: {unused}")
+
+    # every rendered Amazon link must carry the tag and rel=sponsored
+    for f in os.listdir(HERE):
+        if not f.endswith(".html"): continue
+        t = read(os.path.join(HERE, f))
+        for a in re.findall(r'<a href="(https://www\.amazon\.com[^"]*)"([^>]*)>', t):
+            if f"tag={d['tag']}" not in a[0]:
+                fail(f"{f}: Amazon link missing associates tag: {a[0][:60]}")
+            if "sponsored" not in a[1]:
+                fail(f"{f}: Amazon link missing rel=sponsored: {a[0][:60]}")
     if d["tag"].startswith("REPLACE_"):
         warn("associates tag is still a placeholder - set it before launch")
     asin = re.compile(r"\bB0[A-Z0-9]{8}\b")
     tag = re.compile(r"tag=[A-Za-z0-9-]+")
     strays = []
     for f in os.listdir(HERE):
-        if f == "products.json" or not f.endswith((".md", ".html", ".json", ".css")):
+        # .html is generated output and MUST contain ASINs; it is verified
+        # separately below for tag and rel. Only hand-edited sources are scanned.
+        if f == "products.json" or not f.endswith((".md", ".json", ".css")):
             continue
         t = read(os.path.join(HERE, f))
         if asin.search(t) or tag.search(t): strays.append(f)
@@ -204,6 +235,33 @@ def check_svgs():
     else: fail(f"three heaviest SVGs total {sum(heaviest)}B, over the 60KB ceiling")
 
 
+PLACEHOLDERS = [
+    "PENDING", "REPLACE_", "In production", "Coming soon", "TBD", "TODO",
+    "Lorem ipsum", "placeholder", "XXXX", "FIXME", "your-tag-here",
+]
+
+
+def check_placeholders():
+    """Nothing shipped may advertise itself as unfinished."""
+    print("\n=== PLACEHOLDERS ===")
+    hits = []
+    for f in sorted(os.listdir(HERE)):
+        if not f.endswith((".md", ".html", ".json", ".css", ".txt", ".xml")):
+            continue
+        body = read(os.path.join(HERE, f))
+        # frontmatter verify: notes are editorial provenance, never rendered
+        scan = re.sub(r"^---\n.*?\n---\n", "", body, flags=re.S) if f.endswith(".md") else body
+        for p in PLACEHOLDERS:
+            # word boundaries, or 'PENDING' matches inside 'spending'
+            pat = rf"\b{re.escape(p)}" + (r"\b" if p[-1].isalnum() else "")
+            if re.search(pat, scan, re.I):
+                hits.append(f"{f}: '{p}'")
+    if hits:
+        for h in hits: fail(f"placeholder text shipped {h}")
+    else:
+        ok(f"no placeholder text in any shipped file")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--final", action="store_true")
@@ -212,8 +270,9 @@ def main():
     check_content(docs, a.final)
     check_prose(docs)
     check_build(docs)
-    check_affiliate()
+    check_affiliate(docs)
     check_svgs()
+    check_placeholders()
     print("\n" + "=" * 62)
     if FAILS:
         print(f"RESULT: {len(FAILS)} FAILURE(S) - DO NOT PUSH")

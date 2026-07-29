@@ -27,7 +27,7 @@ The true leaves follow, and they look different: recognisably shaped like the ma
 
 Past that point, most species turn bitter, the stems fibre up, and the tray begins competing with itself for light. The change is not gradual over a week. It can happen across a day or two, particularly in warm conditions.
 
-Radish and mustard are ready fast and go sharp quickly. Peas tolerate a wider window and stay sweet longer. Sunflower needs watching, since it goes from excellent to unpleasantly tough within about forty eight hours.
+Radish is the usual first crop, and {{product:radish-microgreen-seed}} is sold in sprouting grade. Radish and mustard are both ready fast and go sharp quickly. Peas tolerate a wider window and stay sweet longer. Sunflower needs watching, since it goes from excellent to unpleasantly tough within about forty eight hours.
 
 The practical instruction is to check daily from the point the first true leaves appear, and to cut a day early rather than a day late. An early harvest is slightly milder. A late one is bitter and cannot be undone.
 

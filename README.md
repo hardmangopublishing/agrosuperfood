@@ -19,12 +19,16 @@ stops GitHub running Jekyll over the folder, which it otherwise does by default.
 
 Two things are deliberately unfinished and both are one-line edits.
 
-**Set your Associates tag.** Open `products.json` and replace
-`REPLACE_WITH_YOUR_ASSOCIATES_TAG`. The pre-flight gate warns until you do.
+**Associates tag.** Already set to `peteragro-20` in `products.json`. To change it, edit
+that one field; it is the only place the tag appears.
 
-**Fill in the ASINs.** Every product in `products.json` reads `PENDING`.
-This file is the single source of truth. No ASIN or affiliate tag may appear in
-any other file, and the gate fails the build if one does.
+**ASINs are live.** All ten products carry real ASINs. `products.json` is the
+single source of truth, and the gate fails the build if an ASIN or tag appears
+in any hand-edited source file.
+
+To place a link in an article, write `{{product:led-grow-bar}}` in the markdown.
+The builder renders it as a tagged link with `rel="sponsored nofollow noopener"`.
+The gate fails if a token names a product that does not exist or has no live ASIN.
 
 Product images must come from official SiteStripe or Product Advertising API
 output only. Never hotlink Amazon-hosted images and never redraw them. Verify
@@ -64,15 +68,13 @@ sixty spoke build. It will fail until the site is finished, which is the point.
 
 ## Current status
 
-Wave one of six is complete: eleven of sixty-six planned pages, 21,254 words,
-nine illustrations. All gates green.
+Two hubs complete, ten guides each: 22 pages, 42,900 words, 11 illustrations,
+19 products linked. All gates green.
 
-Live: the sprouting hub and all ten of its guides, covering mung beans, lentils,
-broccoli, alfalfa, vessel choice, rinsing and drainage, seed buying, soilless
-microgreens, grow lights, and harvest and storage.
+Live: the sprouting hub and the juicing hub, both with all ten guides.
 
-In production: five further hubs covering juicing, dehydrating, fermentation,
-superfood powders, and home grain milling, with ten guides each.
+Next: guides beneath the juicing hub, then hubs for dehydrating, fermentation,
+superfood powders, and home grain milling.
 
 ## Illustration system
 

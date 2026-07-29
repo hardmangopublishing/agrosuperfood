@@ -34,5 +34,13 @@
   "img-seed-viability": {
     "alt": "Twenty seeds on a damp paper towel after seventy two hours. Sixteen have opened and put out a root, four remain closed, giving eighty percent. A scale below marks the thresholds at seventy and eighty percent.",
     "caption": "Twenty seeds and three days settles the question that guesswork cannot. Below seventy percent, cook the seed instead of sprouting it."
+  },
+  "img-juicer-types": {
+    "alt": "Three juicer mechanisms in cross-section. A centrifugal machine shreds produce with a fast flat blade against a spinning mesh basket. A masticating machine crushes produce along a slow turning auger against a screen. A hydraulic press grinds produce and squeezes it under high force.",
+    "caption": "Three ways to separate liquid from fibre. The differences that matter are yield on greens, how much air gets beaten in, and how long the cleaning takes."
+  },
+  "img-juice-structure": {
+    "alt": "A glass divided into proportional bands showing the structure of a vegetable-led juice: about half volume base of celery or cucumber, a quarter body of carrot or beetroot, a fifth green such as cabbage, then thin layers of lemon acid and ginger heat. Fruit sits outside the glass, marked as an adjustment rather than a role.",
+    "caption": "Fill the five roles and the recipe stops mattering. Fruit sits outside the structure on purpose."
   }
 }

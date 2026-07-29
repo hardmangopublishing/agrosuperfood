@@ -47,7 +47,7 @@ Stacked shallow trays with perforated bases, draining from one level to the next
 
 **Where it fails.** Cleaning. Every tray has a perforated base, and perforated bases hold residue. A tray stack needs to be properly washed between every batch, and skipping that is how a system that worked for a month suddenly produces a bad smell. Trays also occupy permanent counter space in a way a jar does not, and they are awkward to store.
 
-**Buy this if** you are already sprouting weekly, if you want two or three varieties running at once, or if your kitchen runs warm enough that jars keep going sour on you.
+{{product:tray-stack}} is the usual form this takes. **Buy this if** you are already sprouting weekly, if you want two or three varieties running at once, or if your kitchen runs warm enough that jars keep going sour on you.
 
 ## The automatic sprouter
 
@@ -86,7 +86,7 @@ That setup produces sprouts indistinguishable from an expensive one. The only th
 
 Two improvisations are worth avoiding. Do not use a metal sieve as a lid, since the aperture is usually too large and small seeds escape during every rinse. And do not use plastic wrap with holes punched in it, which restricts airflow far more than it appears to and produces exactly the stagnant conditions the whole system exists to prevent.
 
-The first purchase worth making, once you have proven the habit, is a stainless mesh lid. It costs little, it lasts for years, and it removes the most annoying part of the improvised version.
+The first purchase worth making, once you have proven the habit, is {{product:stainless-sprout-lid}}. It costs little, it lasts for years, and it removes the most annoying part of the improvised version.
 
 ## What actually breaks
 

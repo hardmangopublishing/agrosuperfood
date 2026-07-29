@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img"
+     aria-labelledby="jst jsd" width="960" height="520">
+  <title id="jst">The five roles in a vegetable-led juice, shown as proportions of one glass</title>
+  <desc id="jsd">A glass divided into bands showing the structure of a vegetable-led juice: about half volume base of celery or cucumber, about a quarter body of carrot or beetroot, about a fifth green such as cabbage, then small amounts of acid from lemon and heat from ginger. Fruit sits outside the glass as an adjustment rather than a role.</desc>
+
+  <!-- glass -->
+  <path d="M 150 90 L 330 90 L 312 452 Q 310 470 292 470 L 188 470 Q 170 470 168 452 Z"
+        fill="none" stroke="#17211B" stroke-width="3.4" stroke-linejoin="round"/>
+
+  <!-- bands, bottom up -->
+  <path d="M 176 452 Q 174 466 190 466 L 290 466 Q 306 466 304 452 L 298 330 L 182 330 Z"
+        fill="#3D6249" fill-opacity="0.34"/>
+  <path d="M 182 330 L 298 330 L 292 208 L 188 208 Z" fill="#9E4A2E" fill-opacity="0.30"/>
+  <path d="M 188 208 L 292 208 L 288 142 L 192 142 Z" fill="#3D6249" fill-opacity="0.52"/>
+  <path d="M 192 142 L 288 142 L 286 116 L 194 116 Z" fill="#9E4A2E" fill-opacity="0.55"/>
+  <path d="M 194 116 L 286 116 L 285 96 L 195 96 Z" fill="#9E4A2E" fill-opacity="0.75"/>
+
+  <g stroke="#17211B" stroke-width="1.4">
+    <path d="M 182 330 L 298 330"/><path d="M 188 208 L 292 208"/>
+    <path d="M 192 142 L 288 142"/><path d="M 194 116 L 286 116"/>
+  </g>
+
+  <!-- leaders -->
+  <g stroke="#3D6249" stroke-width="1.2" fill="none">
+    <path d="M 304 398 L 400 398"/><path d="M 296 268 L 400 268"/>
+    <path d="M 290 176 L 400 176"/><path d="M 287 130 L 400 130"/>
+    <path d="M 285 106 L 400 106"/>
+  </g>
+
+  <g font-family="IBM Plex Mono, ui-monospace, monospace">
+    <g font-size="19" fill="#17211B" letter-spacing="0.8">
+      <text x="416" y="392">VOLUME BASE</text>
+      <text x="416" y="262">BODY</text>
+      <text x="416" y="170">THE GREEN</text>
+      <text x="416" y="124">ACID</text>
+      <text x="416" y="100">HEAT</text>
+    </g>
+    <g font-size="14" fill="#3D6249">
+      <text x="416" y="414">celery or cucumber, about half the glass</text>
+      <text x="416" y="284">carrot or beetroot, about a quarter</text>
+      <text x="416" y="192">cabbage, kale, broccoli stalk, about a fifth</text>
+      <text x="620" y="124">half a lemon, peeled</text>
+      <text x="620" y="100">a thumb of ginger</text>
+    </g>
+  </g>
+
+  <!-- fruit sits outside -->
+  <circle cx="700" cy="330" r="36" fill="#9E4A2E" fill-opacity="0.16"
+          stroke="#9E4A2E" stroke-width="2.4" stroke-dasharray="7 5"/>
+  <path d="M 700 300 C 696 288 704 282 712 288" fill="none" stroke="#3D6249" stroke-width="2.4"/>
+  <path d="M 664 330 L 620 330 M 634 322 L 620 330 L 634 338"
+        fill="none" stroke="#9E4A2E" stroke-width="2" stroke-linecap="round"/>
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" text-anchor="middle">
+    <text x="700" y="392" font-size="17" fill="#9E4A2E" letter-spacing="0.8">FRUIT</text>
+    <text x="700" y="414" font-size="13" fill="#3D6249">an adjustment,</text>
+    <text x="700" y="432" font-size="13" fill="#3D6249">never a role</text>
+  </g>
+
+  <text x="240" y="502" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="13"
+        fill="#3D6249" text-anchor="middle">Fill the five roles and you no longer need a recipe.</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 520" role="img"
+     aria-labelledby="jtt jtd" width="1020" height="520">
+  <title id="jtt">Three juicer mechanisms compared in cross-section</title>
+  <desc id="jtd">Three cutaways. A centrifugal juicer shreds produce with a fast flat blade and throws juice through a spinning mesh basket. A masticating juicer crushes produce against a screen with a slow turning auger. A hydraulic press grinds produce and squeezes it under high force in a cloth bag. Juice paths are drawn in terracotta and the machinery in deep green.</desc>
+
+  <!-- centrifugal -->
+  <g>
+    <path d="M 96 140 L 96 96 L 156 96 L 156 140" fill="none" stroke="#17211B" stroke-width="3"/>
+    <path d="M 60 140 L 192 140 L 176 300 L 76 300 Z" fill="none" stroke="#17211B" stroke-width="3"/>
+    <path d="M 74 172 L 178 172" stroke="#3D6249" stroke-width="2" stroke-dasharray="5 5"/>
+    <ellipse cx="126" cy="240" rx="52" ry="14" fill="none" stroke="#3D6249" stroke-width="2.6"/>
+    <path d="M 74 240 L 178 240" stroke="#17211B" stroke-width="4"/>
+    <g stroke="#9E4A2E" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <path d="M 80 250 C 60 262 56 280 62 296"/>
+      <path d="M 172 250 C 192 262 196 280 190 296"/>
+    </g>
+    <g stroke="#3D6249" stroke-width="2" fill="none" stroke-linecap="round">
+      <path d="M 108 258 A 26 26 0 1 0 144 258" />
+      <path d="M 144 258 l 2 -12 M 144 258 l 11 4"/>
+    </g>
+    <path d="M 96 316 L 156 316 L 150 372 L 102 372 Z" fill="#9E4A2E" fill-opacity="0.24"
+          stroke="#17211B" stroke-width="2.4"/>
+  </g>
+
+  <!-- masticating -->
+  <g>
+    <path d="M 442 132 L 442 92 L 498 92 L 498 132" fill="none" stroke="#17211B" stroke-width="3"/>
+    <path d="M 372 168 L 620 168 Q 636 168 636 190 L 636 236 Q 636 258 620 258 L 372 258
+             Q 356 258 356 236 L 356 190 Q 356 168 372 168 Z"
+          fill="none" stroke="#17211B" stroke-width="3"/>
+    <path d="M 392 212 C 412 186 432 238 452 212 C 472 186 492 238 512 212
+             C 532 186 552 238 572 212 C 592 190 606 226 616 212"
+          fill="none" stroke="#3D6249" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 384 244 L 624 244" stroke="#3D6249" stroke-width="2" stroke-dasharray="4 5"/>
+    <g stroke="#9E4A2E" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <path d="M 430 262 L 430 300"/><path d="M 500 262 L 500 300"/><path d="M 570 262 L 570 300"/>
+    </g>
+    <path d="M 404 316 L 596 316 L 586 372 L 414 372 Z" fill="#9E4A2E" fill-opacity="0.24"
+          stroke="#17211B" stroke-width="2.4"/>
+  </g>
+
+  <!-- hydraulic press -->
+  <g>
+    <path d="M 820 92 L 820 138" stroke="#17211B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 748 138 L 892 138 L 892 166 L 748 166 Z" fill="#3D6249" fill-opacity="0.30"
+          stroke="#17211B" stroke-width="3"/>
+    <g stroke="#9E4A2E" stroke-width="2.6" fill="none" stroke-linecap="round">
+      <path d="M 820 100 L 820 128 M 812 118 L 820 128 L 828 118"/>
+    </g>
+    <path d="M 754 176 L 886 176 L 872 244 L 768 244 Z" fill="#3D6249" fill-opacity="0.16"
+          stroke="#17211B" stroke-width="2.6" stroke-dasharray="8 5"/>
+    <path d="M 736 252 L 904 252" stroke="#17211B" stroke-width="4"/>
+    <g stroke="#9E4A2E" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <path d="M 782 258 L 782 300"/><path d="M 820 258 L 820 300"/><path d="M 858 258 L 858 300"/>
+    </g>
+    <path d="M 756 316 L 884 316 L 874 372 L 766 372 Z" fill="#9E4A2E" fill-opacity="0.24"
+          stroke="#17211B" stroke-width="2.4"/>
+  </g>
+
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" text-anchor="middle">
+    <g font-size="18" fill="#17211B" letter-spacing="1.2">
+      <text x="126" y="60">CENTRIFUGAL</text>
+      <text x="496" y="60">MASTICATING</text>
+      <text x="820" y="60">HYDRAULIC PRESS</text>
+    </g>
+    <g font-size="14" fill="#3D6249">
+      <text x="126" y="410">Fast blade, spinning mesh</text>
+      <text x="496" y="410">Slow auger, crushed against a screen</text>
+      <text x="820" y="410">Ground, wrapped, pressed</text>
+    </g>
+    <g font-size="14" fill="#9E4A2E">
+      <text x="126" y="440">Poor on greens</text>
+      <text x="496" y="440">Good on greens</text>
+      <text x="820" y="440">Highest yield</text>
+      <text x="126" y="462">Most air, shortest life</text>
+      <text x="496" y="462">Less air, keeps 2 to 3 days</text>
+      <text x="820" y="462">Least air, keeps longest</text>
+    </g>
+    <text x="510" y="500" font-size="13" fill="#3D6249">Terracotta marks the juice path. Deep green marks the mechanism.</text>
+  </g>
+</svg>

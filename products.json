@@ -1,17 +1,158 @@
 {
-  "_note": "SINGLE SOURCE OF TRUTH. No ASIN or affiliate tag may appear in any other file. Product images must come from official SiteStripe or PA-API output only. Never hotlink, never redraw. Verify the current Associates operating agreement before launch.",
-  "tag": "REPLACE_WITH_YOUR_ASSOCIATES_TAG",
+  "_note": "SINGLE SOURCE OF TRUTH. No ASIN or affiliate tag may appear in any hand-edited source file. Product images must come from official SiteStripe or PA-API output only. Never hotlink, never redraw. Verify the current Associates operating agreement before launch.",
+  "tag": "peteragro-20",
   "products": [
-    { "id": "sprouting-jar-kit",    "label": "Wide-mouth sprouting jar kit",   "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
-    { "id": "stainless-sprout-lid", "label": "Stainless mesh sprouting lid",   "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
-    { "id": "sprout-drain-rack",    "label": "Angled sprouting drain rack",    "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
-    { "id": "tray-stack",           "label": "Stacked sprouting tray system",  "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
-    { "id": "microgreen-tray-set",  "label": "Perforated and solid tray pair", "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
-    { "id": "hemp-mats",            "label": "Hemp growing mats",              "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
-    { "id": "led-grow-bar",         "label": "LED grow light bar",             "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
-    { "id": "salad-spinner",        "label": "Salad spinner for drying",       "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
-    { "id": "mung-bean-bulk",       "label": "Bulk mung beans, sprouting grade","category": "pantry",   "hub": "hub-sprouting", "asin": "PENDING" },
-    { "id": "broccoli-seed",        "label": "Broccoli sprouting seed",        "category": "pantry",    "hub": "hub-sprouting", "asin": "PENDING" },
-    { "id": "radish-microgreen-seed","label": "Radish microgreen seed",        "category": "pantry",    "hub": "hub-sprouting", "asin": "PENDING" }
+    {
+      "id": "sprouting-jar-kit",
+      "label": "Wide-mouth sprouting jar kit",
+      "category": "equipment",
+      "hub": "hub-sprouting",
+      "asin": "B08695416M",
+      "link_text": "a complete jar kit with a tilting drain stand"
+    },
+    {
+      "id": "stainless-sprout-lid",
+      "label": "Stainless mesh sprouting lid",
+      "category": "equipment",
+      "hub": "hub-sprouting",
+      "asin": "B0779Q59B9",
+      "link_text": "a stainless mesh sprouting lid"
+    },
+    {
+      "id": "tray-stack",
+      "label": "Stacked sprouting tray system",
+      "category": "equipment",
+      "hub": "hub-sprouting",
+      "asin": "B0B3LQP3MH",
+      "link_text": "a stackable stainless tray system"
+    },
+    {
+      "id": "microgreen-tray-set",
+      "label": "Perforated 1020 tray (with holes)",
+      "category": "equipment",
+      "hub": "hub-sprouting",
+      "asin": "B074LQQMTM",
+      "link_text": "1020 trays with drainage holes"
+    },
+    {
+      "id": "hemp-mats",
+      "label": "Hemp growing mats",
+      "category": "equipment",
+      "hub": "hub-sprouting",
+      "asin": "B0758LHRNR",
+      "link_text": "hemp growing mats cut for 1020 trays"
+    },
+    {
+      "id": "led-grow-bar",
+      "label": "LED grow light bar",
+      "category": "equipment",
+      "hub": "hub-sprouting",
+      "asin": "B0CL6X3H8Z",
+      "link_text": "a 2ft LED bar with a built-in timer"
+    },
+    {
+      "id": "mung-bean-bulk",
+      "label": "Bulk mung beans, sprouting grade",
+      "category": "pantry",
+      "hub": "hub-sprouting",
+      "asin": "B000NCXHFA",
+      "link_text": "mung beans sold for sprouting"
+    },
+    {
+      "id": "broccoli-seed",
+      "label": "Broccoli sprouting seed",
+      "category": "pantry",
+      "hub": "hub-sprouting",
+      "asin": "B000N8N4M0",
+      "link_text": "organic broccoli sprouting seed"
+    },
+    {
+      "id": "radish-microgreen-seed",
+      "label": "Radish microgreen seed",
+      "category": "pantry",
+      "hub": "hub-sprouting",
+      "asin": "B072P6WZML",
+      "link_text": "radish sprouting seed"
+    },
+    {
+      "id": "microgreen-tray-solid",
+      "label": "Solid 1020 tray (no holes)",
+      "category": "equipment",
+      "hub": "hub-sprouting",
+      "asin": "B08XDZVY9V",
+      "link_text": "solid 1020 trays with no holes"
+    },
+    {
+      "id": "juicer-masticating",
+      "label": "Hurom H320 cold press juicer",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B0CPFTW9PB",
+      "link_text": "a self-feeding horizontal cold press juicer"
+    },
+    {
+      "id": "juicer-masticating-compact",
+      "label": "Hurom H310 compact slow juicer",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B0B7SN3FCC",
+      "link_text": "a compact strainer-free slow juicer"
+    },
+    {
+      "id": "juicer-centrifugal",
+      "label": "Breville Juice Fountain Plus JE98XL",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B003R28HWQ",
+      "link_text": "a dual-speed centrifugal juicer with a 3 inch chute"
+    },
+    {
+      "id": "juicer-centrifugal-compact",
+      "label": "Breville Juice Fountain Compact BJE200XL",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B000MDHH06",
+      "link_text": "a compact centrifugal juicer for small kitchens"
+    },
+    {
+      "id": "small-glass-jars",
+      "label": "VERONES 6oz canning jars with lids",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B07LD6XPBB",
+      "link_text": "six ounce canning jars with sealing lids"
+    },
+    {
+      "id": "citrus-squeezer-hand",
+      "label": "Handheld aluminium citrus squeezer, 20oz bowl",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B0C28D9GKQ",
+      "link_text": "a handheld citrus squeezer with a pour spout"
+    },
+    {
+      "id": "citrus-press-lever",
+      "label": "ROVSUN cast iron lever citrus press",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B01FLXTVBY",
+      "link_text": "a cast iron lever press"
+    },
+    {
+      "id": "citrus-juicer-electric",
+      "label": "Electric citrus juicer, 160W stainless",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B075H251KY",
+      "link_text": "an electric citrus juicer with a reaming cone"
+    },
+    {
+      "id": "nut-milk-bag",
+      "label": "Reusable fine mesh nut milk bags, 3 pack",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B07PQ5GYK8",
+      "link_text": "a fine mesh straining bag"
+    }
   ]
 }
