@@ -60,13 +60,13 @@ The three designs differ in ways that matter, and the right choice depends less 
 
 Within this category, horizontal designs generally have fewer components and a coarser, more accessible screen than vertical ones, which is why they tend to rinse clean in a couple of minutes. If cleaning speed has put you off juicing before, this is the specific design characteristic to look for, and it is worth more than any feature on a spec sheet.
 
-For the breakfast glass this is the correct machine. Cabbage and celery both reward slow crushing.
+For the breakfast glass this is the correct machine, and {{product:juicer-masticating}} is the pattern. Cabbage and celery both reward slow crushing.
 
-**Centrifugal.** A fast blade shreds produce against a spinning mesh basket. These are the quickest and least expensive machines, and the wide feed chute takes whole apples with no cutting. A reasonable choice for anyone juicing mostly hard fruit and carrots.
+**Centrifugal.** A fast blade shreds produce against a spinning mesh basket, as in {{product:juicer-centrifugal}}. These are the quickest and least expensive machines, and the wide feed chute takes whole apples with no cutting. A reasonable choice for anyone juicing mostly hard fruit and carrots.
 
 They handle cabbage and leafy greens poorly, yields are lower, and the fine mesh basket takes the longest to clean of any component in this category.
 
-**Hydraulic press.** Produce is ground, wrapped in a cloth, and pressed under high force. Highest yield and longest keeping juice available. It is a two stage process with a cloth to launder, which suits a household juicing daily at volume and very few others.
+**Hydraulic press.** Produce is ground, wrapped in a cloth, and pressed under high force. Norwalk is the name most associated with this at home, and these are sold direct and second hand rather than through general retailers. Highest yield and longest keeping juice available. It is a two stage process with a cloth to launder, which suits a household juicing daily at volume and very few others.
 
 The detailed comparison guide below walks through the first two side by side, which is the decision nearly everyone is actually making.
 
@@ -142,7 +142,7 @@ A juicer separates and sets aside the fibre. A blender keeps everything and brea
 
 Juice is thin, absorbs quickly, and lets you take in a large volume of vegetables fast. It works well alongside a meal, which is exactly how the breakfast glass is used: with eggs, or with whatever the actual breakfast is, rather than as a replacement for it.
 
-A smoothie is thick, absorbs slowly, keeps the fibre, and fills you up. It is the better tool for a meal in itself, for anything fruit based, and for ingredients with no free liquid.
+A smoothie is thick, absorbs slowly, keeps the fibre, and fills you up. It is the better tool for a meal in itself, for anything fruit based, and for ingredients with no free liquid. {{product:blender-vitamix}} is the reference machine, and a far cheaper blender still does the job.
 
 Many households own both and use them for different jobs, which is a sensible outcome rather than a redundancy.
 

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" role="img"
+     aria-labelledby="gat gad" width="980" height="560">
+  <title id="gat">Cross-section of a wheat grain and what each extraction rate keeps</title>
+  <desc id="gad">A cutaway wheat berry showing three parts: the outer bran layers, the germ at the base, and the endosperm filling the rest. Beside it, three bars show what is kept at one hundred percent extraction, at eighty five percent, and at seventy five percent, with the germ removed only at the lowest rate.</desc>
+
+  <!-- grain cross section -->
+  <g>
+    <path d="M 180 90 C 250 90 288 170 288 260 C 288 350 250 430 180 430
+             C 110 430 72 350 72 260 C 72 170 110 90 180 90 Z"
+          fill="#3D6249" fill-opacity="0.16" stroke="#17211B" stroke-width="3.4"/>
+    <path d="M 180 108 C 242 108 274 178 274 260 C 274 342 242 412 180 412
+             C 118 412 86 342 86 260 C 86 178 118 108 180 108 Z"
+          fill="none" stroke="#3D6249" stroke-width="2"/>
+    <path d="M 180 124 C 236 124 262 186 262 260 C 262 334 236 396 180 396
+             C 124 396 98 334 98 260 C 98 186 124 124 180 124 Z"
+          fill="#F2EBDC" stroke="#17211B" stroke-width="2.4"/>
+    <path d="M 180 300 C 214 300 232 336 226 372 C 210 392 150 392 134 372
+             C 128 336 146 300 180 300 Z"
+          fill="#9E4A2E" fill-opacity="0.42" stroke="#9E4A2E" stroke-width="2.4"/>
+    <path d="M 180 316 L 180 372" stroke="#9E4A2E" stroke-width="1.6"/>
+    <path d="M 130 260 L 230 260" stroke="#3D6249" stroke-width="1.2" stroke-dasharray="4 5"/>
+    <path d="M 180 92 L 180 122" stroke="#17211B" stroke-width="2.2"/>
+  </g>
+
+  <g stroke="#3D6249" stroke-width="1.2" fill="none">
+    <path d="M 286 150 L 360 150"/><path d="M 246 240 L 360 240"/><path d="M 224 350 L 360 350"/>
+  </g>
+  <g font-family="IBM Plex Mono, ui-monospace, monospace">
+    <g font-size="17" fill="#17211B">
+      <text x="372" y="146">BRAN</text>
+      <text x="372" y="236">ENDOSPERM</text>
+      <text x="372" y="346">GERM</text>
+    </g>
+    <g font-size="13" fill="#3D6249">
+      <text x="372" y="168">fibre and minerals, cuts gluten</text>
+      <text x="372" y="258">starch and protein, most of the weight</text>
+      <text x="372" y="368">the embryo, holds the oil that goes rancid</text>
+    </g>
+  </g>
+
+  <path d="M 60 462 L 920 462" stroke="#3D6249" stroke-width="1.2"/>
+
+  <!-- extraction bars -->
+  <g>
+    <text x="132" y="494" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="15"
+          fill="#17211B" text-anchor="middle">100%</text>
+    <rect x="60" y="504" width="144" height="26" fill="#3D6249" fill-opacity="0.30" stroke="#17211B" stroke-width="2"/>
+    <text x="132" y="548" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12"
+          fill="#3D6249" text-anchor="middle">bran + germ + endosperm</text>
+
+    <text x="452" y="494" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="15"
+          fill="#17211B" text-anchor="middle">85%</text>
+    <rect x="304" y="504" width="122" height="26" fill="#3D6249" fill-opacity="0.30" stroke="#17211B" stroke-width="2"/>
+    <rect x="426" y="504" width="22" height="26" fill="none" stroke="#9E4A2E" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="452" y="548" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12"
+          fill="#3D6249" text-anchor="middle">coarse bran sifted out, germ kept</text>
+
+    <text x="790" y="494" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="15"
+          fill="#17211B" text-anchor="middle">75%</text>
+    <rect x="648" y="504" width="108" height="26" fill="#3D6249" fill-opacity="0.30" stroke="#17211B" stroke-width="2"/>
+    <rect x="756" y="504" width="36" height="26" fill="none" stroke="#9E4A2E" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="790" y="548" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="12"
+          fill="#3D6249" text-anchor="middle">approaching white, most bran gone</text>
+  </g>
+  <text x="490" y="440" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14"
+        fill="#9E4A2E" text-anchor="middle">Store the grain, not the flour. An intact seed keeps the oil sealed in.</text>
+</svg>

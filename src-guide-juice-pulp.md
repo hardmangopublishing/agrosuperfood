@@ -129,7 +129,7 @@ Illustrative figures only, and they will vary with your machine and produce.
 | Cabbage and greens | Stock, or compost | 2 days |
 | Cucumber, citrus | Compost | Compost it now |
 
-A masticating machine produces noticeably drier pulp than a centrifugal one, which both means better yield and makes the pulp more useful in baking. Squeeze a handful over the sink: if liquid runs freely, you are leaving juice behind and the pulp will be too wet for fritters.
+A masticating machine such as {{product:juicer-masticating}} produces noticeably drier pulp than a centrifugal one, which both means better yield and makes the pulp more useful in baking. Squeeze a handful over the sink: if liquid runs freely, you are leaving juice behind and the pulp will be too wet for fritters.
 
 ## What goes wrong
 

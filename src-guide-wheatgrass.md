@@ -43,7 +43,7 @@ Nothing here is medical advice. Wheatgrass is a green juice with an unusual flav
 
 The method is the same as any soil-grown microgreen, and a soilless mat approach works too, with one difference in the harvest. The [juicing hub](hub-juicing.html) covers where wheatgrass sits against everything else you might press.
 
-**Seed.** Hard winter wheat berries, sold as wheatgrass seed or as sprouting grade wheat. About one and a half cups covers a standard tray.
+**Seed.** {{product:wheat-berries-wheatgrass}} are sold for exactly this. About one and a half cups covers a standard tray.
 
 **Soak.** Eight to twelve hours in cool water, then drain. Wheat is a large seed and needs the full soak.
 

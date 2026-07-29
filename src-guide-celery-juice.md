@@ -53,7 +53,7 @@ Sixteen ounces of pure celery juice takes roughly one large head. Wash it thorou
 
 Keep the leaves. They are more strongly flavoured than the stalks and they juice perfectly well. Discarding them wastes both yield and taste.
 
-Cut the stalks into short lengths for a masticating machine, since long celery strings are the classic cause of a wrapped auger. The [juicing hub](hub-juicing.html) covers feed technique in more detail, and cutting short is the single easiest prevention.
+Cut the stalks into short lengths for a masticating machine such as {{product:juicer-masticating}}, since long celery strings are the classic cause of a wrapped auger. The [juicing hub](hub-juicing.html) covers feed technique in more detail, and cutting short is the single easiest prevention.
 
 Pure celery juice is savoury and slightly saline. Some people like it immediately, and some find it difficult. If you are in the second group, the version below is a better place to start.
 

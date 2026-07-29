@@ -53,7 +53,7 @@ Cabbage is the most underused ingredient in home juicing, and it beats kale on t
 
 **Flavour.** Raw cabbage juice is milder than people expect, and it sits comfortably under ginger and lemon without the grassy insistence of kale.
 
-The one requirement is a machine that can crush it. A centrifugal juicer handles cabbage poorly, which the [juicing hub](hub-juicing.html) and the [machine comparison](guide-masticating-vs-centrifugal.html) both cover.
+The one requirement is a machine that can crush it. A centrifugal juicer handles cabbage poorly and {{product:juicer-masticating}} handles it well, which the [juicing hub](hub-juicing.html) and the [machine comparison](guide-masticating-vs-centrifugal.html) both cover.
 
 ## Getting more from the same produce
 

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img"
+     aria-labelledby="fjt fjd" width="960" height="620">
+  <title id="fjt">Cross-section of a fermenting jar showing submersion and gas escape</title>
+  <desc id="fjd">A cutaway of a wide mouth jar fitted with an airlock lid. Shredded cabbage is held beneath the brine by a glass weight, with a whole cabbage leaf folded over the surface. Carbon dioxide bubbles rise through the brine and leave through the airlock. Six callouts mark the airlock, the headspace, the weight, the leaf, the brine line, and the packed vegetable.</desc>
+
+  <defs>
+    <pattern id="shred" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(28)">
+      <path d="M0 0 L0 10" stroke="#3D6249" stroke-width="1.6"/>
+    </pattern>
+  </defs>
+
+  <!-- airlock -->
+  <path d="M 452 60 L 452 118 L 508 118 L 508 60" fill="none" stroke="#17211B" stroke-width="2.6"/>
+  <ellipse cx="480" cy="60" rx="28" ry="10" fill="none" stroke="#17211B" stroke-width="2.6"/>
+  <rect x="466" y="118" width="28" height="34" fill="none" stroke="#17211B" stroke-width="2.6"/>
+  <rect x="454" y="96" width="52" height="20" fill="#9E4A2E" fill-opacity="0.26" stroke="none"/>
+  <g stroke="#9E4A2E" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <path d="M 480 52 L 480 26 M 472 36 L 480 26 L 488 36"/>
+  </g>
+
+  <!-- lid -->
+  <rect x="332" y="152" width="296" height="22" rx="3" fill="#1F3A2B" stroke="#17211B" stroke-width="3"/>
+
+  <!-- jar body -->
+  <path d="M 344 174 L 344 210 Q 320 222 320 258 L 320 528 Q 320 552 344 552
+           L 616 552 Q 640 552 640 528 L 640 258 Q 640 222 616 210 L 616 174"
+        fill="none" stroke="#17211B" stroke-width="3.4" stroke-linejoin="round"/>
+
+  <!-- brine -->
+  <path d="M 322 300 L 638 300 L 638 528 Q 638 550 616 550 L 344 550 Q 322 550 322 528 Z"
+        fill="#9E4A2E" fill-opacity="0.14"/>
+  <path d="M 322 300 L 638 300" stroke="#9E4A2E" stroke-width="2.6"/>
+
+  <!-- packed vegetable -->
+  <path d="M 330 356 L 630 356 L 630 540 Q 630 546 622 546 L 338 546 Q 330 546 330 540 Z"
+        fill="url(#shred)" stroke="none"/>
+  <path d="M 330 356 L 630 356 L 630 540 Q 630 546 622 546 L 338 546 Q 330 546 330 540 Z"
+        fill="none" stroke="#3D6249" stroke-width="1.6"/>
+
+  <!-- cabbage leaf -->
+  <path d="M 338 350 C 400 336 560 336 622 350 C 560 362 400 362 338 350 Z"
+        fill="#3D6249" fill-opacity="0.34" stroke="#3D6249" stroke-width="2"/>
+
+  <!-- glass weight -->
+  <ellipse cx="480" cy="330" rx="128" ry="20" fill="#7E9C85" fill-opacity="0.28"
+           stroke="#17211B" stroke-width="2.6"/>
+  <path d="M 352 330 L 352 342 A 128 20 0 0 0 608 342 L 608 330"
+        fill="#7E9C85" fill-opacity="0.28" stroke="#17211B" stroke-width="2.6"/>
+  <path d="M 466 318 L 494 318" stroke="#17211B" stroke-width="2.4"/>
+
+  <!-- bubbles -->
+  <g fill="none" stroke="#9E4A2E" stroke-width="1.8">
+    <circle cx="380" cy="284" r="6"/><circle cx="392" cy="256" r="4"/>
+    <circle cx="372" cy="228" r="5"/>
+    <circle cx="566" cy="288" r="5"/><circle cx="576" cy="258" r="7"/>
+    <circle cx="560" cy="226" r="4"/>
+  </g>
+
+  <!-- callouts -->
+  <g stroke="#3D6249" stroke-width="1.2" fill="none">
+    <path d="M 512 88 L 700 88"/>
+    <path d="M 636 250 L 700 250"/>
+    <path d="M 612 336 L 700 336"/>
+    <path d="M 340 348 L 250 348"/>
+    <path d="M 326 300 L 250 300"/>
+    <path d="M 334 450 L 250 450"/>
+  </g>
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" font-size="15">
+    <g fill="#9E4A2E">
+      <circle cx="716" cy="82" r="14"/><circle cx="716" cy="244" r="14"/>
+      <circle cx="716" cy="330" r="14"/>
+      <circle cx="234" cy="342" r="14"/><circle cx="234" cy="294" r="14"/><circle cx="234" cy="444" r="14"/>
+    </g>
+    <g fill="#F2EBDC" text-anchor="middle" font-size="14" font-weight="600">
+      <text x="716" y="87">1</text><text x="716" y="249">2</text><text x="716" y="335">3</text>
+      <text x="234" y="347">4</text><text x="234" y="299">5</text><text x="234" y="449">6</text>
+    </g>
+    <g fill="#17211B" font-size="14">
+      <text x="738" y="87">Airlock: gas out, no air in</text>
+      <text x="738" y="249">Headspace</text>
+      <text x="738" y="335">Glass weight holds it down</text>
+    </g>
+    <g fill="#17211B" font-size="14" text-anchor="end">
+      <text x="214" y="347">Whole leaf catches strays</text>
+      <text x="214" y="299">Brine line: nothing above it</text>
+      <text x="214" y="449">Packed vegetable, 2% salt</text>
+    </g>
+  </g>
+
+  <text x="480" y="596" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14"
+        fill="#3D6249" text-anchor="middle">Terracotta marks the brine and the gas. Deep green marks the vegetable and the vessel.</text>
+</svg>

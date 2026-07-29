@@ -42,5 +42,21 @@
   "img-juice-structure": {
     "alt": "A glass divided into proportional bands showing the structure of a vegetable-led juice: about half volume base of celery or cucumber, a quarter body of carrot or beetroot, a fifth green such as cabbage, then thin layers of lemon acid and ginger heat. Fruit sits outside the glass, marked as an adjustment rather than a role.",
     "caption": "Fill the five roles and the recipe stops mattering. Fruit sits outside the structure on purpose."
+  },
+  "img-drying-variables": {
+    "alt": "Four panels showing the variables that govern a drying batch: uniform slice thickness against uneven slices, a low temperature against a hot one causing a hardened surface shell, spaced pieces allowing airflow against a crowded tray, and a single layer against a stacked load.",
+    "caption": "Four variables, every batch. Change the food and these stay the same."
+  },
+  "img-ferment-jar": {
+    "alt": "Cutaway of a wide mouth fermenting jar with an airlock lid. Shredded cabbage is held under the brine by a glass weight, with a whole cabbage leaf folded over the surface, and carbon dioxide bubbles rise through the brine and leave through the airlock.",
+    "caption": "Everything under the brine, gas out and no air in. Those two conditions are most of the method."
+  },
+  "img-powder-jars": {
+    "alt": "A pile of fresh produce reducing through drying and grinding to a small jar of powder at roughly ten to one by weight, and below it a split showing which plants are worth making at home and which are worth buying.",
+    "caption": "Ten to one, and nothing added. The make or buy question answers most purchasing decisions in this category."
+  },
+  "img-grain-anatomy": {
+    "alt": "Cutaway of a wheat berry showing the outer bran layers, the germ at the base, and the endosperm filling the rest, with three bars below showing what is kept at one hundred, eighty five, and seventy five percent extraction.",
+    "caption": "The germ holds the oil that goes rancid, which is why commercial flour removes it and why home millers store grain instead."
   }
 }

@@ -153,6 +153,262 @@
       "hub": "hub-juicing",
       "asin": "B07PQ5GYK8",
       "link_text": "a fine mesh straining bag"
+    },
+    {
+      "id": "dehydrator-shelf",
+      "label": "Cosori 5-tray stainless dehydrator, horizontal airflow",
+      "category": "equipment",
+      "hub": "hub-drying",
+      "asin": "B0CHRWLM5Z",
+      "link_text": "a stainless shelf dehydrator with rear-fan airflow"
+    },
+    {
+      "id": "dehydrator-large",
+      "label": "Cosori 6-tray, 6.5 sq ft drying space",
+      "category": "equipment",
+      "hub": "hub-drying",
+      "asin": "B07PY5M579",
+      "link_text": "a larger six tray machine"
+    },
+    {
+      "id": "dehydrator-stackable",
+      "label": "Excalibur EZ Dry 5-tray stackable",
+      "category": "equipment",
+      "hub": "hub-drying",
+      "asin": "B00XNWPR8C",
+      "link_text": "a stackable dehydrator with a base-mounted fan"
+    },
+    {
+      "id": "silicone-dryer-sheets",
+      "label": "Silicone dehydrator sheets, 10 pack",
+      "category": "equipment",
+      "hub": "hub-drying",
+      "asin": "B08MSR2NB7",
+      "link_text": "stainless replacement trays"
+    },
+    {
+      "id": "mandoline",
+      "label": "OXO Good Grips handheld mandoline slicer",
+      "category": "equipment",
+      "hub": "hub-drying",
+      "asin": "B000YDO2LG",
+      "link_text": "a handheld mandoline with adjustable thickness"
+    },
+    {
+      "id": "mandoline-guarded",
+      "label": "Stainless mandoline with hand guard and cut-resistant gloves",
+      "category": "equipment",
+      "hub": "hub-drying",
+      "asin": "B077PZS1XS",
+      "link_text": "a full size mandoline with a guard and cut-resistant gloves"
+    },
+    {
+      "id": "oxygen-absorbers",
+      "label": "300cc oxygen absorbers, individually sealed packs",
+      "category": "equipment",
+      "hub": "hub-drying",
+      "asin": "B0BYHZW9YM",
+      "link_text": "300cc oxygen absorbers in individually sealed packs"
+    },
+    {
+      "id": "ferment-kit",
+      "label": "Fermentation kit: stainless lids, airlocks, glass weights",
+      "category": "equipment",
+      "hub": "hub-fermenting",
+      "asin": "B09BJFS165",
+      "link_text": "a fermentation kit with airlock lids and glass weights"
+    },
+    {
+      "id": "ferment-weights",
+      "label": "Glass fermentation weights and airlock combo",
+      "category": "equipment",
+      "hub": "hub-fermenting",
+      "asin": "B01MG4JT3Q",
+      "link_text": "glass fermentation weights sized for wide mouth jars"
+    },
+    {
+      "id": "ferment-jars-2l",
+      "label": "2L wide mouth fermentation jars with airlock and weight",
+      "category": "equipment",
+      "hub": "hub-fermenting",
+      "asin": "B089GSHSVL",
+      "link_text": "two litre fermenting jars with airlocks and weights"
+    },
+    {
+      "id": "ferment-lids-waterless",
+      "label": "Waterless silicone airlock lids, wide mouth",
+      "category": "equipment",
+      "hub": "hub-fermenting",
+      "asin": "B0BKRHXJ42",
+      "link_text": "waterless silicone airlock caps that need no topping up"
+    },
+    {
+      "id": "spice-grinder",
+      "label": "Electric blade spice and coffee grinder, stainless",
+      "category": "equipment",
+      "hub": "hub-powders",
+      "asin": "B07SYTRPSG",
+      "link_text": "a small electric blade grinder"
+    },
+    {
+      "id": "spice-grinder-large",
+      "label": "Larger spice grinder with detachable stainless bowl",
+      "category": "equipment",
+      "hub": "hub-powders",
+      "asin": "B0FZTCX96N",
+      "link_text": "a larger grinder with a detachable bowl"
+    },
+    {
+      "id": "grain-mill-electric",
+      "label": "Wondermill electric impact grain mill",
+      "category": "equipment",
+      "hub": "hub-milling",
+      "asin": "B000CPJKWC",
+      "link_text": "an electric impact mill"
+    },
+    {
+      "id": "grain-mill-manual",
+      "label": "Kitchen Crop hand crank grain mill, stainless burrs",
+      "category": "equipment",
+      "hub": "hub-milling",
+      "asin": "B0018P54TS",
+      "link_text": "a hand crank burr mill with adjustable coarseness"
+    },
+    {
+      "id": "grain-mill-stone",
+      "label": "Manual stone grain mill with wooden stand",
+      "category": "equipment",
+      "hub": "hub-milling",
+      "asin": "B0DZBS24BL",
+      "link_text": "a manual stone mill"
+    },
+    {
+      "id": "matcha-ceremonial",
+      "label": "Ceremonial grade matcha, 100g tin",
+      "category": "pantry",
+      "hub": "hub-powders",
+      "asin": "B0CHZ6WDP4",
+      "link_text": "a ceremonial grade matcha in a small sealed tin"
+    },
+    {
+      "id": "matcha-culinary",
+      "label": "Culinary grade matcha, larger tin",
+      "category": "pantry",
+      "hub": "hub-powders",
+      "asin": "B077572GG8",
+      "link_text": "a culinary grade matcha for lattes and baking"
+    },
+    {
+      "id": "algae-blend",
+      "label": "Organic spirulina and chlorella powder blend",
+      "category": "pantry",
+      "hub": "hub-powders",
+      "asin": "B01GYH2Q72",
+      "link_text": "a spirulina and chlorella blend"
+    },
+    {
+      "id": "chlorella-powder",
+      "label": "Organic chlorella powder, broken cell wall",
+      "category": "pantry",
+      "hub": "hub-powders",
+      "asin": "B01NCTZSPF",
+      "link_text": "a broken cell wall chlorella powder"
+    },
+    {
+      "id": "wheat-berries-milling",
+      "label": "Organic hard red spring wheat berries, 25 lb",
+      "category": "pantry",
+      "hub": "hub-milling",
+      "asin": "B08HSLYPGQ",
+      "link_text": "organic hard red spring wheat berries in bulk"
+    },
+    {
+      "id": "wheat-berries-wheatgrass",
+      "label": "Hard red wheat berries for wheatgrass, 25 lb",
+      "category": "pantry",
+      "hub": "hub-sprouting",
+      "asin": "B00KUTWA5E",
+      "link_text": "hard wheat berries sold for wheatgrass"
+    },
+    {
+      "id": "cacao-powder",
+      "label": "Organic unsweetened cacao powder, 1 lb",
+      "category": "pantry",
+      "hub": "hub-powders",
+      "asin": "B00HES9CMS",
+      "link_text": "an organic unsweetened cacao powder"
+    },
+    {
+      "id": "thermometer-instant",
+      "label": "ThermoPro instant read digital thermometer",
+      "category": "equipment",
+      "hub": "hub-drying",
+      "asin": "B07XXSYLL8",
+      "link_text": "an instant read digital thermometer"
+    },
+    {
+      "id": "kefir-grains",
+      "label": "Live milk kefir grains, 1 tbsp starter culture",
+      "category": "pantry",
+      "hub": "hub-fermenting",
+      "asin": "B007GGRJTG",
+      "link_text": "live milk kefir grains"
+    },
+    {
+      "id": "camu-camu",
+      "label": "Organic camu camu powder, 12 oz",
+      "category": "pantry",
+      "hub": "hub-powders",
+      "asin": "B01L2TGRFO",
+      "link_text": "a camu camu powder"
+    },
+    {
+      "id": "baobab-powder",
+      "label": "Terrasoul organic baobab fruit powder",
+      "category": "pantry",
+      "hub": "hub-powders",
+      "asin": "B071D3KR9Z",
+      "link_text": "a baobab fruit powder"
+    },
+    {
+      "id": "acai-powder",
+      "label": "Navitas Organics acai powder",
+      "category": "pantry",
+      "hub": "hub-powders",
+      "asin": "B001CGX3ZK",
+      "link_text": "an acai powder"
+    },
+    {
+      "id": "spirulina-powder",
+      "label": "BulkSupplements spirulina powder, 500 g",
+      "category": "pantry",
+      "hub": "hub-powders",
+      "asin": "B00ENSGXY2",
+      "link_text": "a spirulina powder on its own"
+    },
+    {
+      "id": "beetroot-powder",
+      "label": "Force Factor organic beetroot powder, unflavoured",
+      "category": "pantry",
+      "hub": "hub-powders",
+      "asin": "B0BSJYW743",
+      "link_text": "a ready made organic beetroot powder"
+    },
+    {
+      "id": "blender-vitamix",
+      "label": "Vitamix 5200, 64 oz, professional grade",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B008H4SLV6",
+      "link_text": "a Vitamix 5200"
+    },
+    {
+      "id": "blender-vitamix-entry",
+      "label": "Vitamix E310 Explorian, 48 oz",
+      "category": "equipment",
+      "hub": "hub-juicing",
+      "asin": "B0758JHZM3",
+      "link_text": "the smaller Explorian E310"
     }
   ]
 }

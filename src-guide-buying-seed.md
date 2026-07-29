@@ -23,7 +23,7 @@ It is an obvious decision only if you finish the bag while the seed is still ali
 
 The term appears on packaging without a single universal definition behind it, so it is worth understanding what you are actually buying.
 
-At minimum it should mean seed that has been grown, harvested, and stored with human consumption in mind rather than planting. The practical difference is treatment. Garden seed intended for soil is frequently coated with fungicide, which is entirely appropriate for that purpose and entirely inappropriate for something you will eat four days later. The treatment is not always declared prominently.
+At minimum it should mean seed that has been grown, harvested, and stored with human consumption in mind rather than planting, as {{product:mung-bean-bulk}} and {{product:broccoli-seed}} both are. The practical difference is treatment. Garden seed intended for soil is frequently coated with fungicide, which is entirely appropriate for that purpose and entirely inappropriate for something you will eat four days later. The treatment is not always declared prominently.
 
 Beyond that, reputable sprouting suppliers test lots for pathogens and can tell you so. As the [hub page](hub-sprouting.html) explains, contamination in sprouts arrives on the seed far more often than it arrives in your kitchen, which makes the supplier your primary control point rather than a detail.
 

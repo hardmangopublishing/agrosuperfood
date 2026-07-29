@@ -59,7 +59,7 @@ After each rinse, drain the jar, then hold it firmly and swing it in a short sha
 
 Do this twice after every rinse. The difference in how much water leaves the jar is immediately obvious, and it is the difference between a clean batch and a slimy one.
 
-Anyone who finds this awkward with a glass jar should consider a tray system instead, since spreading fine seed thin achieves the same result by geometry rather than by technique. [Jars, trays, and automatic sprouters](guide-jars-vs-trays.html) covers where that tradeoff falls.
+A stainless lid such as {{product:stainless-sprout-lid}} makes the spin out easier, since a warped plastic lid shifts under the force. Anyone who finds this awkward with a glass jar should consider a tray system instead, since spreading fine seed thin achieves the same result by geometry rather than by technique. [Jars, trays, and automatic sprouters](guide-jars-vs-trays.html) covers where that tradeoff falls.
 
 ## Days one to five
 

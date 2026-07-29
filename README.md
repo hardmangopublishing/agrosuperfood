@@ -68,13 +68,12 @@ sixty spoke build. It will fail until the site is finished, which is the point.
 
 ## Current status
 
-Two hubs complete, ten guides each: 22 pages, 42,900 words, 11 illustrations,
-19 products linked. All gates green.
+55 pages, 107,200 words, 14 illustrations, 32 products linked. All gates green.
 
-Live: the sprouting hub and the juicing hub, both with all ten guides.
+Live: the sprouting, juicing, dehydrating, fermenting, and powders hubs, each
+with all ten guides.
 
-Next: guides beneath the juicing hub, then hubs for dehydrating, fermentation,
-superfood powders, and home grain milling.
+Next: the home grain milling hub.
 
 ## Illustration system
 

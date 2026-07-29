@@ -21,7 +21,7 @@ It is also the honest way to answer the question that matters most, which is whe
 
 ## What you need
 
-**A blender.** Any reasonable one. A high powered blender does this better, and an ordinary jug blender does it perfectly well with produce cut smaller and a little more patience.
+**A blender.** Any reasonable one. A high powered machine such as {{product:blender-vitamix}} does this better, since complete cell rupture is what determines yield, and an ordinary jug blender does it perfectly well with produce cut smaller and a little more patience.
 
 **A straining bag.** {{product:nut-milk-bag}} is the tool, sold for nut milk and equally suited to this. Nylon mesh is stronger than cheesecloth, squeezes harder without tearing, and rinses clean in seconds. Buy a set with more than one size.
 

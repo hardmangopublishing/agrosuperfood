@@ -59,7 +59,7 @@ Drainage is the mechanical half of the job and the half people improvise worst.
 
 Water that remains in contact with the mass becomes the medium in which everything unwanted grows. The goal after every rinse is to remove as much free water as possible and then to keep removing it passively for the next twelve hours.
 
-The jar sits mouth down at a steep angle. Forty degrees from horizontal is a workable minimum for beans. Fine seeds want steeper, closer to sixty. The angle must be held consistently, which is what a proper drain rack buys you and what a jar propped in a mixing bowl does not.
+The jar sits mouth down at a steep angle, which is what the stand in {{product:sprouting-jar-kit}} is for. Forty degrees from horizontal is a workable minimum for beans. Fine seeds want steeper, closer to sixty. The angle must be held consistently, which is what a proper drain rack buys you and what a jar propped in a mixing bowl does not.
 
 Leave the jar draining between rinses rather than standing it upright. This is the passive half of the work and it runs for twenty three hours out of every twenty four.
 

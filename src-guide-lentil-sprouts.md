@@ -41,7 +41,7 @@ Expect a small proportion of duds in any bag of whole lentils, since commercial 
 
 Lentils need less soaking than most people give them. Eight hours is ample and six is often enough, which makes them convenient in a way that chickpeas are not.
 
-Measure a quarter cup of dry lentils for a one litre jar. They roughly triple in volume, which sounds modest and is enough to fill the jar comfortably by day three.
+Measure a quarter cup of dry lentils for a one litre jar such as {{product:sprouting-jar-kit}}. They roughly triple in volume, which sounds modest and is enough to fill the jar comfortably by day three.
 
 Rinse twice in cool water first, until the water runs clear rather than cloudy. Dry lentils carry a surprising amount of field dust and starch.
 

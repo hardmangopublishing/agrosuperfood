@@ -47,7 +47,7 @@ Answer one question: what do you want the drink to do?
 
 **If the answer involves being full, being breakfast, or containing fruit,** you want a blender. It is cheaper, easier, faster to clean, and correct for the job.
 
-**If the answer is getting a large volume of vegetables into yourself in a form you will actually drink,** you want a juicer.
+**If the answer is getting a large volume of vegetables into yourself in a form you will actually drink,** you want a juicer, and {{product:juicer-masticating}} or the cheaper {{product:juicer-centrifugal}} both qualify.
 
 **If the answer is both, on different days,** own both. This is extremely common and is not indecision. They do different jobs and most households that have both use the blender more often.
 
@@ -113,7 +113,7 @@ Illustrative comparison only, and not a promise about prices or results.
 | Cleaning | 2 minutes if rinsed at once | Under a minute |
 | Parts to wash | 4 to 6 | 2 |
 
-The honest summary: if you can only own one and you are not sure, own the blender. It is cheaper, more versatile across meals, and easier to live with. Buy the juicer when you know specifically that vegetable volume is what you are after.
+The honest summary: if you can only own one and you are not sure, own the blender. It is cheaper, more versatile across meals, and easier to live with. {{product:blender-vitamix}} is the machine most people who take this seriously end up with, and {{product:blender-vitamix-entry}} does the same job in a smaller jug. Buy the juicer when you know specifically that vegetable volume is what you are after.
 
 ## Counter space decides more than you think
 

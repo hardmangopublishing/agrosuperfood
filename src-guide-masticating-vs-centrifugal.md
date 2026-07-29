@@ -73,7 +73,7 @@ Either way, the [cleaning routine](guide-juicer-cleaning.html) matters more than
 
 Two machines dominate the decision, and three others are worth knowing about so you can rule them out with confidence.
 
-**Hydraulic press.** Produce is ground, wrapped in a cloth, and squeezed under high force. Yield and juice quality are the highest available, and the juice keeps longest. It is a two stage process with a cloth bag to launder after every batch. This makes sense for a household juicing daily at volume and for very few others.
+**Hydraulic press.** Produce is ground, wrapped in a cloth, and squeezed under high force. Norwalk is the reference brand and these are bought direct or used rather than off a shelf. Yield and juice quality are the highest available, and the juice keeps longest. It is a two stage process with a cloth bag to launder after every batch. This makes sense for a household juicing daily at volume and for very few others.
 
 **Twin gear, also called triturating.** Two interlocking augers crush produce between them. Yield is excellent, particularly on wheatgrass and hard greens, and these machines are expensive, heavy, and have the most parts to clean of anything in this category. They are a specialist choice for someone who already knows they want one.
 
