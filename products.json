@@ -1,0 +1,17 @@
+{
+  "_note": "SINGLE SOURCE OF TRUTH. No ASIN or affiliate tag may appear in any other file. Product images must come from official SiteStripe or PA-API output only. Never hotlink, never redraw. Verify the current Associates operating agreement before launch.",
+  "tag": "REPLACE_WITH_YOUR_ASSOCIATES_TAG",
+  "products": [
+    { "id": "sprouting-jar-kit",    "label": "Wide-mouth sprouting jar kit",   "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
+    { "id": "stainless-sprout-lid", "label": "Stainless mesh sprouting lid",   "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
+    { "id": "sprout-drain-rack",    "label": "Angled sprouting drain rack",    "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
+    { "id": "tray-stack",           "label": "Stacked sprouting tray system",  "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
+    { "id": "microgreen-tray-set",  "label": "Perforated and solid tray pair", "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
+    { "id": "hemp-mats",            "label": "Hemp growing mats",              "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
+    { "id": "led-grow-bar",         "label": "LED grow light bar",             "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
+    { "id": "salad-spinner",        "label": "Salad spinner for drying",       "category": "equipment", "hub": "hub-sprouting", "asin": "PENDING" },
+    { "id": "mung-bean-bulk",       "label": "Bulk mung beans, sprouting grade","category": "pantry",   "hub": "hub-sprouting", "asin": "PENDING" },
+    { "id": "broccoli-seed",        "label": "Broccoli sprouting seed",        "category": "pantry",    "hub": "hub-sprouting", "asin": "PENDING" },
+    { "id": "radish-microgreen-seed","label": "Radish microgreen seed",        "category": "pantry",    "hub": "hub-sprouting", "asin": "PENDING" }
+  ]
+}

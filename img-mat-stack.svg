@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 580" role="img"
+     aria-labelledby="mst msd" width="980" height="580">
+  <title id="mst">Cross-section of a soilless microgreen tray under a grow light</title>
+  <desc id="msd">A cutaway showing a grow light above a tray of microgreens growing on a fibre mat. The mat sits in a perforated tray, which rests inside a solid lower tray holding shallow water. Arrows show water drawn upward into the mat. Five callouts mark the light distance, the seedlings, the mat, the perforated tray, and the water reservoir.</desc>
+
+  <!-- grow light -->
+  <rect x="250" y="52" width="440" height="26" rx="4" fill="#1F3A2B" stroke="#17211B" stroke-width="2.6"/>
+  <g stroke="#3D6249" stroke-width="1.6" stroke-dasharray="7 8">
+    <path d="M 300 84 L 300 210"/><path d="M 380 84 L 380 200"/>
+    <path d="M 470 84 L 470 194"/><path d="M 560 84 L 560 200"/>
+    <path d="M 640 84 L 640 210"/>
+  </g>
+
+  <!-- seedlings -->
+  <g fill="none" stroke="#3D6249" stroke-width="2.6" stroke-linecap="round">
+    <path d="M 300 380 L 300 216"/><path d="M 345 380 L 345 208"/>
+    <path d="M 390 380 L 390 220"/><path d="M 435 380 L 435 204"/>
+    <path d="M 480 380 L 480 214"/><path d="M 525 380 L 525 206"/>
+    <path d="M 570 380 L 570 218"/><path d="M 615 380 L 615 210"/>
+  </g>
+  <g fill="#3D6249" fill-opacity="0.24" stroke="#3D6249" stroke-width="1.8">
+    <path d="M 300 216 C 284 204 272 208 270 220 C 282 226 296 224 300 216 Z"/>
+    <path d="M 300 216 C 316 204 328 208 330 220 C 318 226 304 224 300 216 Z"/>
+    <path d="M 345 208 C 329 196 317 200 315 212 C 327 218 341 216 345 208 Z"/>
+    <path d="M 345 208 C 361 196 373 200 375 212 C 363 218 349 216 345 208 Z"/>
+    <path d="M 435 204 C 419 192 407 196 405 208 C 417 214 431 212 435 204 Z"/>
+    <path d="M 435 204 C 451 192 463 196 465 208 C 453 214 439 212 435 204 Z"/>
+    <path d="M 525 206 C 509 194 497 198 495 210 C 507 216 521 214 525 206 Z"/>
+    <path d="M 525 206 C 541 194 553 198 555 210 C 543 216 529 214 525 206 Z"/>
+    <path d="M 615 210 C 599 198 587 202 585 214 C 597 220 611 218 615 210 Z"/>
+    <path d="M 615 210 C 631 198 643 202 645 214 C 633 220 619 218 615 210 Z"/>
+  </g>
+
+  <!-- fibre mat -->
+  <rect x="266" y="380" width="384" height="26" fill="#9E4A2E" fill-opacity="0.20"
+        stroke="#17211B" stroke-width="2.4"/>
+  <g stroke="#9E4A2E" stroke-width="1.2">
+    <path d="M 280 380 L 292 406"/><path d="M 320 380 L 332 406"/>
+    <path d="M 360 380 L 372 406"/><path d="M 400 380 L 412 406"/>
+    <path d="M 440 380 L 452 406"/><path d="M 480 380 L 492 406"/>
+    <path d="M 520 380 L 532 406"/><path d="M 560 380 L 572 406"/>
+    <path d="M 600 380 L 612 406"/>
+  </g>
+
+  <!-- perforated tray -->
+  <path d="M 254 372 L 254 428 L 662 428 L 662 372" fill="none" stroke="#17211B" stroke-width="3"/>
+  <g stroke="#17211B" stroke-width="2.4" stroke-linecap="round">
+    <path d="M 300 428 L 314 428"/><path d="M 370 428 L 384 428"/>
+    <path d="M 440 428 L 454 428"/><path d="M 510 428 L 524 428"/>
+    <path d="M 580 428 L 594 428"/>
+  </g>
+
+  <!-- lower tray and water -->
+  <path d="M 224 452 L 224 522 L 692 522 L 692 452" fill="none" stroke="#17211B" stroke-width="3"/>
+  <rect x="227" y="490" width="462" height="30" fill="#9E4A2E" fill-opacity="0.22"/>
+  <g stroke="#9E4A2E" stroke-width="2.4" fill="none" stroke-linecap="round">
+    <path d="M 340 486 L 340 442 M 332 456 L 340 442 L 348 456"/>
+    <path d="M 458 486 L 458 442 M 450 456 L 458 442 L 466 456"/>
+    <path d="M 576 486 L 576 442 M 568 456 L 576 442 L 584 456"/>
+  </g>
+
+  <!-- callouts -->
+  <g stroke="#3D6249" stroke-width="1.2" fill="none">
+    <path d="M 700 66 L 800 66"/><path d="M 660 250 L 800 250"/>
+    <path d="M 664 392 L 800 392"/><path d="M 672 428 L 800 452"/>
+    <path d="M 700 505 L 800 528"/>
+  </g>
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" font-size="15">
+    <g fill="#9E4A2E">
+      <circle cx="816" cy="60" r="14"/><circle cx="816" cy="244" r="14"/>
+      <circle cx="816" cy="386" r="14"/><circle cx="816" cy="446" r="14"/>
+      <circle cx="816" cy="522" r="14"/>
+    </g>
+    <g fill="#F2EBDC" text-anchor="middle" font-size="14" font-weight="600">
+      <text x="816" y="65">1</text><text x="816" y="249">2</text>
+      <text x="816" y="391">3</text><text x="816" y="451">4</text>
+      <text x="816" y="527">5</text>
+    </g>
+    <g fill="#17211B" font-size="14">
+      <text x="838" y="65">Light, a hand's width above</text>
+      <text x="838" y="249">Cut above this line</text>
+      <text x="838" y="391">Fibre mat, roots knit in</text>
+      <text x="838" y="451">Perforated tray</text>
+      <text x="838" y="527">Shallow water, drawn upward</text>
+    </g>
+  </g>
+</svg>

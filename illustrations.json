@@ -1,0 +1,38 @@
+{
+  "img-sprouting-hero": {
+    "alt": "Five stages of mung bean germination drawn side by side: dry seed at hour zero, swollen seed at hour eight, root tip breaking through at hour twenty-four, stem elongating at hour forty-eight, and seed leaves open at hour ninety-six.",
+    "caption": "One bean, ninety-six hours. Roots and new growth are drawn in terracotta throughout this site; deep green marks established structure."
+  },
+  "img-jar-drain": {
+    "alt": "Cutaway of a wide-mouth jar resting mouth-down at forty degrees over a drip tray, with callouts marking the 1.2 millimetre mesh lid, the drain angle, the sprout mass filling one third of the jar, the air gap above it, the tray, and the rack support.",
+    "caption": "Forty degrees is the whole trick. Shallower and it pools; steeper and the mass slumps into the lid."
+  },
+  "img-jar-vs-tray": {
+    "alt": "Two cutaways side by side. A jar holds one deep mass of sprouts with a warm centre air cannot reach. A three level tray stack holds the same volume in thin layers with air passing through every level.",
+    "caption": "Same seed, same week. The jar has one dense core to manage; the stack trades that problem for three times the cleaning."
+  },
+  "img-broccoli-days": {
+    "alt": "A five point timeline for a broccoli sprout batch: a four to six hour soak, the seed coat splitting on day one, peak clumping risk on day two, roots lengthening on day three, and the harvest window on days four to five.",
+    "caption": "Day two is where broccoli batches are won or lost. Rinse hard enough to break the mass apart, then rotate the jar."
+  },
+  "img-mat-stack": {
+    "alt": "Cutaway of a soilless microgreen tray: a grow light above, seedlings on a fibre mat, the mat in a perforated tray, and that tray sitting in shallow water drawn upward into the mat.",
+    "caption": "Water from below, light from above, and nothing touching the leaves. Wet foliage under a cover is how mould starts."
+  },
+  "img-lentil-hulls": {
+    "alt": "Whole, split, and hulled lentils compared from the edge and the face. The whole lentil is a complete lens with an intact coat and embryo. The split lentil has one flat cut face. The hulled and split lentil has neither coat nor embryo.",
+    "caption": "The diagnostic is the edge, not the face. One flat side means the embryo was cut in half at the factory."
+  },
+  "img-light-distance": {
+    "alt": "The same grow light at two heights. Far above the tray the beam spreads thin and seedlings grow tall, pale and floppy. Roughly a hand's width above the canopy the beam concentrates and seedlings are short, sturdy and evenly coloured.",
+    "caption": "Closeness does more work than wattage. Moving a light from sixty centimetres to fifteen beats doubling its output at the greater distance."
+  },
+  "img-rinse-cycle": {
+    "alt": "A twenty four hour timeline with rinses at seven in the morning and seven in the evening, an optional third at midday for warm weather, and passive draining filling the rest of the day.",
+    "caption": "Two minutes of rinsing and twenty three hours of draining. The draining is the part doing most of the work."
+  },
+  "img-seed-viability": {
+    "alt": "Twenty seeds on a damp paper towel after seventy two hours. Sixteen have opened and put out a root, four remain closed, giving eighty percent. A scale below marks the thresholds at seventy and eighty percent.",
+    "caption": "Twenty seeds and three days settles the question that guesswork cannot. Below seventy percent, cook the seed instead of sprouting it."
+  }
+}

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" role="img"
+     aria-labelledby="d1t d1d" width="980" height="660">
+  <title id="d1t">Cross-section of a sprouting jar inverted at forty degrees in a drain rack</title>
+  <desc id="d1d">A technical cutaway of a wide-mouth jar resting mouth-down at a forty degree angle above a drip tray. Six numbered callouts identify the mesh lid aperture, the forty degree drain angle, the sprout mass filling no more than one third of the jar, the air gap above it, the drip tray, and the rack support.</desc>
+
+  <defs>
+    <pattern id="mesh" width="7" height="7" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L0 7 M0 0 L7 0" stroke="#3D6249" stroke-width="1"/>
+    </pattern>
+    <pattern id="mass" width="9" height="9" patternUnits="userSpaceOnUse"
+             patternTransform="rotate(35)">
+      <path d="M0 0 L0 9" stroke="#9E4A2E" stroke-width="1.4"/>
+    </pattern>
+  </defs>
+
+  <!-- jar, rotated mouth-down -->
+  <g transform="rotate(140 450 330)">
+    <!-- sprout mass: gravity pulls it toward the mouth end -->
+    <path d="M 379 168 C 400 152 500 152 521 168 L 521 296 C 494 316 406 316 379 296 Z"
+          fill="url(#mass)" stroke="none"/>
+    <!-- jar wall -->
+    <path d="M 375 470 L 375 210 Q 375 185 398 178 L 398 142 L 502 142 L 502 178
+             Q 525 185 525 210 L 525 470 Q 525 484 511 484 L 389 484 Q 375 484 375 470 Z"
+          fill="none" stroke="#17211B" stroke-width="3" stroke-linejoin="round"/>
+    <!-- threads -->
+    <g stroke="#3D6249" stroke-width="1.4">
+      <path d="M 398 152 L 502 152"/>
+      <path d="M 398 163 L 502 163"/>
+    </g>
+    <!-- mesh lid across the mouth -->
+    <rect x="396" y="134" width="108" height="10" fill="url(#mesh)" stroke="#17211B" stroke-width="2"/>
+    <!-- fill line at one third -->
+    <path d="M 379 296 L 521 296" stroke="#9E4A2E" stroke-width="1.6" stroke-dasharray="6 5"/>
+  </g>
+
+  <!-- drip tray -->
+  <path d="M 470 574 L 800 574 L 786 610 L 484 610 Z"
+        fill="#3D6249" fill-opacity="0.12" stroke="#17211B" stroke-width="2.4" stroke-linejoin="round"/>
+  <g stroke="#9E4A2E" stroke-width="2.4" fill="none" stroke-linecap="round">
+    <path d="M 580 496 l 0 14"/>
+    <path d="M 597 516 l 0 12"/>
+    <path d="M 612 540 l 0 10"/>
+  </g>
+
+  <!-- rack support -->
+  <path d="M 318 508 L 318 574 M 318 508 L 392 452" fill="none" stroke="#17211B"
+        stroke-width="3" stroke-linecap="round"/>
+  <path d="M 286 574 L 350 574" stroke="#17211B" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 40 degree angle indicator -->
+  <path d="M 571 474 L 800 474" stroke="#3D6249" stroke-width="1.2" stroke-dasharray="5 6"/>
+  <path d="M 660 474 A 89 89 0 0 0 639 419" fill="none" stroke="#9E4A2E" stroke-width="1.8"/>
+
+  <!-- callouts -->
+  <g stroke="#3D6249" stroke-width="1.2" fill="none">
+    <path d="M 556 452 L 700 386"/>
+    <path d="M 680 448 L 762 500"/>
+    <path d="M 470 340 L 236 268"/>
+    <path d="M 386 250 L 232 152"/>
+    <path d="M 640 592 L 806 596"/>
+    <path d="M 330 528 L 190 470"/>
+  </g>
+
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" font-size="16" fill="#17211B">
+    <g fill="#9E4A2E">
+      <circle cx="716" cy="378" r="15"/><circle cx="778" cy="510" r="15"/>
+      <circle cx="220" cy="262" r="15"/><circle cx="216" cy="144" r="15"/>
+      <circle cx="822" cy="598" r="15"/><circle cx="174" cy="464" r="15"/>
+    </g>
+    <g fill="#F2EBDC" text-anchor="middle" font-size="15" font-weight="600">
+      <text x="716" y="384">1</text><text x="778" y="516">2</text>
+      <text x="220" y="268">3</text><text x="216" y="150">4</text>
+      <text x="822" y="604">5</text><text x="174" y="470">6</text>
+    </g>
+    <text x="738" y="384">Mesh lid, 1.2 mm aperture</text>
+    <text x="800" y="516">40&#176; drain angle</text>
+    <text x="200" y="268" text-anchor="end">Sprout mass, max &#8531; volume</text>
+    <text x="196" y="150" text-anchor="end">Air gap &#8212; never sealed</text>
+    <text x="844" y="604">Drip tray</text>
+    <text x="154" y="470" text-anchor="end">Rack support</text>
+  </g>
+</svg>

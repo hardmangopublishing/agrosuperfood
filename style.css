@@ -1,0 +1,164 @@
+/* agrosuperfood.com
+   Deep green is the dominant surface. Cream is the paper you read on.
+   Terracotta marks only what is alive or changing. */
+
+:root {
+  --bark: #14251C;
+  --forest: #1F3A2B;
+  --moss: #3D6249;
+  --lichen: #7E9C85;
+  --paper: #F2EBDC;
+  --paper-2: #E4D9C2;
+  --ink: #17211B;
+  --clay: #9E4A2E;
+  --clay-lite: #C46B45;
+
+  --display: "Zilla Slab", Rockwell, Georgia, serif;
+  --body: "Source Serif 4", Charter, Georgia, serif;
+  --util: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+  --measure: 34rem;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--forest);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: clamp(1.06rem, 1rem + 0.3vw, 1.19rem);
+  line-height: 1.62;
+}
+
+/* ---------- chrome ---------- */
+.masthead {
+  background: var(--bark);
+  border-bottom: 3px solid var(--clay);
+  padding: 1.1rem 1.4rem;
+}
+.masthead-inner {
+  max-width: 62rem; margin: 0 auto;
+  display: flex; flex-wrap: wrap; gap: 0.9rem 1.6rem;
+  align-items: baseline; justify-content: space-between;
+}
+.wordmark {
+  font-family: var(--display);
+  font-weight: 600; font-size: 1.28rem; letter-spacing: 0.02em;
+  color: var(--paper); text-decoration: none;
+}
+.wordmark span { color: var(--clay-lite); }
+.masthead nav { font-family: var(--util); font-size: 0.79rem; letter-spacing: 0.09em; text-transform: uppercase; }
+.masthead nav a { color: var(--lichen); text-decoration: none; margin-left: 1.1rem; }
+.masthead nav a:first-child { margin-left: 0; }
+.masthead nav a:hover, .masthead nav a:focus-visible { color: var(--paper); }
+
+/* ---------- paper ---------- */
+.sheet {
+  max-width: 62rem;
+  margin: 2.2rem auto 3.5rem;
+  background: var(--paper);
+  padding: clamp(1.5rem, 4vw, 3.4rem);
+  border-radius: 2px;
+  box-shadow: 0 1px 0 var(--moss), 0 18px 40px rgba(0,0,0,0.28);
+}
+.col { max-width: var(--measure); }
+
+/* ---------- type ---------- */
+h1, h2, h3 { font-family: var(--display); line-height: 1.18; font-weight: 600; }
+h1 { font-size: clamp(2.05rem, 1.7rem + 1.7vw, 3.05rem); margin: 0 0 0.5rem; letter-spacing: -0.01em; }
+h2 {
+  font-size: clamp(1.42rem, 1.25rem + 0.8vw, 1.85rem);
+  margin: 2.9rem 0 0.85rem; padding-top: 1.1rem;
+  border-top: 1px solid var(--paper-2);
+}
+h3 { font-size: 1.15rem; margin: 1.8rem 0 0.4rem; }
+p { margin: 0 0 1.15rem; max-width: var(--measure); }
+a { color: var(--clay); text-underline-offset: 2px; }
+a:hover { color: var(--bark); }
+
+.eyebrow {
+  font-family: var(--util); font-size: 0.75rem; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--moss); margin: 0 0 0.7rem;
+}
+.standfirst {
+  font-size: 1.16rem; color: var(--moss); max-width: var(--measure);
+  margin: 0 0 2rem; line-height: 1.5;
+}
+.byline {
+  font-family: var(--util); font-size: 0.74rem; letter-spacing: 0.08em;
+  color: var(--moss); text-transform: uppercase; margin: 0 0 2.2rem;
+  padding-bottom: 1.1rem; border-bottom: 2px solid var(--forest);
+}
+
+/* ---------- figures ---------- */
+figure { margin: 2.3rem 0; }
+figure img { width: 100%; height: auto; display: block; background: transparent; }
+figcaption {
+  font-family: var(--util); font-size: 0.81rem; line-height: 1.5;
+  color: var(--moss); margin-top: 0.7rem; padding-left: 0.85rem;
+  border-left: 3px solid var(--clay); max-width: var(--measure);
+}
+
+/* ---------- tables ---------- */
+table {
+  border-collapse: collapse; width: 100%; margin: 1.6rem 0 1.9rem;
+  font-family: var(--util); font-size: 0.85rem;
+}
+th, td { text-align: left; padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--paper-2); vertical-align: top; }
+th { background: var(--forest); color: var(--paper); font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; font-size: 0.73rem; }
+tbody tr:nth-child(even) { background: rgba(228,217,194,0.42); }
+
+/* ---------- boxes ---------- */
+.box { margin: 2.2rem 0; padding: 1.25rem 1.4rem; max-width: var(--measure); }
+.box p:last-child { margin-bottom: 0; }
+.box-label {
+  font-family: var(--util); font-size: 0.73rem; letter-spacing: 0.14em;
+  text-transform: uppercase; margin: 0 0 0.6rem; font-weight: 600;
+}
+.box-numbers { background: var(--paper-2); border-left: 4px solid var(--forest); }
+.box-numbers .box-label { color: var(--forest); }
+.box-wrong { background: rgba(158,74,46,0.09); border-left: 4px solid var(--clay); }
+.box-wrong .box-label { color: var(--clay); }
+.box-now { background: var(--forest); color: var(--paper); border-left: 4px solid var(--clay-lite); }
+.box-now .box-label { color: var(--clay-lite); }
+.box-now a { color: var(--clay-lite); }
+
+.disclosure {
+  font-family: var(--util); font-size: 0.77rem; line-height: 1.55;
+  color: var(--moss); background: rgba(61,98,73,0.09);
+  border: 1px solid var(--paper-2); padding: 0.7rem 0.9rem;
+  margin: 0 0 2rem; max-width: var(--measure);
+}
+
+/* ---------- link rails ---------- */
+.rail { margin: 3rem 0 0; padding-top: 1.3rem; border-top: 2px solid var(--forest); }
+.rail ul { list-style: none; padding: 0; margin: 0; }
+.rail li { padding: 0.5rem 0; border-bottom: 1px solid var(--paper-2); }
+.rail a { font-family: var(--display); font-size: 1.02rem; text-decoration: none; }
+.rail a:hover { text-decoration: underline; }
+.rail .note { font-family: var(--util); font-size: 0.78rem; color: var(--moss); display: block; }
+
+.hublist { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); margin: 2rem 0; }
+.hubcard { background: var(--paper-2); padding: 1.1rem 1.2rem; border-top: 3px solid var(--clay); }
+.hubcard h3 { margin: 0 0 0.35rem; }
+.hubcard p { font-size: 0.92rem; margin: 0; }
+.hubcard .soon { font-family: var(--util); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--moss); }
+
+ul.plain { max-width: var(--measure); }
+li { margin-bottom: 0.4rem; }
+
+footer.site {
+  background: var(--bark); color: var(--lichen);
+  font-family: var(--util); font-size: 0.78rem; line-height: 1.6;
+  padding: 2rem 1.4rem 2.6rem;
+}
+footer.site div { max-width: 62rem; margin: 0 auto; }
+footer.site a { color: var(--lichen); }
+
+:focus-visible { outline: 3px solid var(--clay-lite); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

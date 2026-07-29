@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" role="img"
+     aria-labelledby="jvt jvd" width="1000" height="540">
+  <title id="jvt">A sprouting jar and a stacked tray system compared by airflow</title>
+  <desc id="jvd">Two cutaways side by side. On the left, a jar holds a single deep mass of sprouts with a warm centre that air cannot reach. On the right, a three level tray stack holds the same volume spread into thin layers, with air passing freely through each level.</desc>
+
+  <g fill="none" stroke="#17211B" stroke-width="3" stroke-linejoin="round">
+
+    <!-- jar -->
+    <path d="M 175 430 L 175 200 Q 175 176 197 169 L 197 138 L 265 138 L 265 169
+             Q 287 176 287 200 L 287 430 Q 287 443 275 443 L 187 443 Q 175 443 175 430 Z"/>
+    <rect x="195" y="126" width="72" height="10" stroke-width="2.4"/>
+
+    <!-- tray stack -->
+    <g>
+      <path d="M 580 200 L 900 200 L 886 246 L 594 246 Z"/>
+      <path d="M 580 296 L 900 296 L 886 342 L 594 342 Z"/>
+      <path d="M 580 392 L 900 392 L 886 438 L 594 438 Z"/>
+    </g>
+  </g>
+
+  <!-- sprout mass, jar: one deep block -->
+  <path d="M 179 288 L 283 288 L 283 428 Q 283 439 273 439 L 189 439 Q 179 439 179 428 Z"
+        fill="#3D6249" fill-opacity="0.22" stroke="none"/>
+  <ellipse cx="231" cy="366" rx="34" ry="27" fill="#9E4A2E" fill-opacity="0.30"/>
+  <ellipse cx="231" cy="366" rx="34" ry="27" fill="none" stroke="#9E4A2E"
+           stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- sprout layers, trays: thin and separated -->
+  <g fill="#3D6249" fill-opacity="0.26">
+    <path d="M 592 228 L 888 228 L 884 244 L 596 244 Z"/>
+    <path d="M 592 324 L 888 324 L 884 340 L 596 340 Z"/>
+    <path d="M 592 420 L 888 420 L 884 436 L 596 436 Z"/>
+  </g>
+
+  <!-- airflow through the trays -->
+  <g stroke="#9E4A2E" stroke-width="2.4" fill="none" stroke-linecap="round">
+    <path d="M 520 218 L 566 218 M 552 210 L 566 218 L 552 226"/>
+    <path d="M 520 314 L 566 314 M 552 306 L 566 314 L 552 322"/>
+    <path d="M 520 410 L 566 410 M 552 402 L 566 410 L 552 418"/>
+    <path d="M 914 218 L 958 218 M 944 210 L 958 218 L 944 226"/>
+    <path d="M 914 314 L 958 314 M 944 306 L 958 314 L 944 322"/>
+    <path d="M 914 410 L 958 410 M 944 402 L 958 410 L 944 418"/>
+  </g>
+
+  <!-- blocked airflow at the jar -->
+  <g stroke="#9E4A2E" stroke-width="2.4" fill="none" stroke-linecap="round">
+    <path d="M 108 366 L 152 366 M 138 358 L 152 366 L 138 374"/>
+    <path d="M 158 348 L 176 384 M 176 348 L 158 384"/>
+  </g>
+
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" fill="#17211B" text-anchor="middle">
+    <text x="231" y="90" font-size="19" letter-spacing="1.6">ONE JAR</text>
+    <text x="740" y="90" font-size="19" letter-spacing="1.6">THREE TRAYS</text>
+    <text x="231" y="112" font-size="14" fill="#3D6249">same volume of seed</text>
+    <text x="740" y="112" font-size="14" fill="#3D6249">same volume of seed</text>
+    <text x="231" y="486" font-size="15" fill="#9E4A2E">Warm centre, no airflow</text>
+    <text x="740" y="486" font-size="15" fill="#9E4A2E">Every layer reaches air</text>
+    <text x="231" y="510" font-size="13" fill="#3D6249">Rinse carries the heat away</text>
+    <text x="740" y="510" font-size="13" fill="#3D6249">Cleaning cost rises with levels</text>
+  </g>
+</svg>

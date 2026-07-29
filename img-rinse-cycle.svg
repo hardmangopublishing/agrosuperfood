@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img"
+     aria-labelledby="rct rcd" width="1000" height="340">
+  <title id="rct">A twenty four hour rinse and drain cycle</title>
+  <desc id="rcd">A timeline across one day. Two rinses sit twelve hours apart at seven in the morning and seven in the evening, with an optional third at midday marked for warm weather. Between them the jar drains passively, which accounts for almost the whole of every twenty four hours.</desc>
+
+  <!-- passive draining band -->
+  <rect x="80" y="158" width="840" height="30" fill="#3D6249" fill-opacity="0.16"
+        stroke="#3D6249" stroke-width="1.4"/>
+  <path d="M 80 214 L 920 214" stroke="#3D6249" stroke-width="1.2"/>
+  <path d="M 80 208 L 80 220 M 920 208 L 920 220" stroke="#3D6249" stroke-width="1.2"/>
+  <text x="500" y="238" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14"
+        fill="#3D6249" text-anchor="middle">passive draining, roughly 23 of every 24 hours</text>
+
+  <!-- hour ticks -->
+  <g stroke="#17211B" stroke-width="1.4">
+    <path d="M 80 188 L 80 200"/><path d="M 290 188 L 290 200"/>
+    <path d="M 500 188 L 500 200"/><path d="M 710 188 L 710 200"/>
+    <path d="M 920 188 L 920 200"/>
+  </g>
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" fill="#17211B" text-anchor="middle">
+    <text x="80" y="284">00:00</text><text x="290" y="284">06:00</text>
+    <text x="500" y="284">12:00</text><text x="710" y="284">18:00</text>
+    <text x="920" y="284">24:00</text>
+  </g>
+
+  <!-- rinse markers -->
+  <g>
+    <rect x="318" y="150" width="14" height="46" fill="#9E4A2E"/>
+    <rect x="738" y="150" width="14" height="46" fill="#9E4A2E"/>
+    <rect x="493" y="150" width="14" height="46" fill="#9E4A2E" fill-opacity="0.32"
+          stroke="#9E4A2E" stroke-width="1.6" stroke-dasharray="5 4"/>
+  </g>
+  <g stroke="#9E4A2E" stroke-width="1.2">
+    <path d="M 325 150 L 325 108"/><path d="M 745 150 L 745 108"/>
+    <path d="M 500 150 L 500 108"/>
+  </g>
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" text-anchor="middle">
+    <g font-size="16" fill="#9E4A2E" letter-spacing="0.8">
+      <text x="325" y="98">RINSE</text><text x="745" y="98">RINSE</text>
+      <text x="500" y="98">THIRD RINSE</text>
+    </g>
+    <g font-size="13" fill="#17211B">
+      <text x="325" y="76">07:00</text><text x="745" y="76">19:00</text>
+      <text x="500" y="76">above 24&#176;C, or fine seed</text>
+    </g>
+  </g>
+
+  <!-- twelve hour span -->
+  <path d="M 332 128 L 738 128" stroke="#17211B" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <text x="535" y="122" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="13"
+        fill="#17211B" text-anchor="middle">12 hours apart beats three crowded into a morning</text>
+
+  <text x="500" y="316" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="13"
+        fill="#3D6249" text-anchor="middle">Rinsing manages heat, waste and matting. It is not a pathogen control.</text>
+</svg>

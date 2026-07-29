@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img"
+     aria-labelledby="h1t h1d" width="1200" height="440">
+  <title id="h1t">Five stages of mung bean germination, from dry seed to open cotyledons</title>
+  <desc id="h1d">A botanical line drawing showing one mung bean at five points in germination: dry seed, soaked and swollen seed, radicle emerging, hypocotyl elongating, and cotyledons opening. Roots and new growth are drawn in terracotta; established leaf and stem tissue in deep green. Each stage is labelled with its elapsed time.</desc>
+
+  <g fill="none" stroke="#17211B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- baseline -->
+    <path d="M 60 352 L 1140 352" stroke="#3D6249" stroke-width="1.2"/>
+
+    <!-- 1. dry seed -->
+    <ellipse cx="130" cy="322" rx="32" ry="24"/>
+    <path d="M 112 312 C 122 306 140 306 150 312" stroke-width="1.4"/>
+    <path d="M 130 298 l 0 -7" stroke-width="1.4"/>
+
+    <!-- 2. imbibed / swollen -->
+    <ellipse cx="360" cy="316" rx="42" ry="32"/>
+    <path d="M 336 300 C 350 290 372 290 386 300" stroke-width="1.4"/>
+    <path d="M 322 322 C 338 334 384 334 398 322" stroke-width="1.2" stroke-dasharray="3 5"/>
+
+    <!-- 3. radicle emerges -->
+    <ellipse cx="590" cy="300" rx="44" ry="34"/>
+    <path d="M 566 284 C 580 274 602 274 616 284" stroke-width="1.4"/>
+    <path d="M 590 334 C 586 348 598 360 590 374" stroke="#9E4A2E" stroke-width="3"/>
+
+    <!-- 4. hypocotyl elongates -->
+    <ellipse cx="820" cy="252" rx="42" ry="33"/>
+    <path d="M 796 236 C 810 226 832 226 846 236" stroke-width="1.4"/>
+    <path d="M 820 285 C 814 312 832 334 818 376" stroke="#9E4A2E" stroke-width="3"/>
+    <g stroke="#9E4A2E" stroke-width="1.4">
+      <path d="M 819 312 l -13 8"/>
+      <path d="M 826 332 l 14 7"/>
+      <path d="M 822 352 l -13 9"/>
+    </g>
+
+    <!-- 5. cotyledons open -->
+    <path d="M 1060 196 C 1052 232 1072 296 1056 378" stroke="#9E4A2E" stroke-width="3"/>
+    <g stroke="#9E4A2E" stroke-width="1.4">
+      <path d="M 1057 240 l -15 9"/>
+      <path d="M 1064 266 l 15 8"/>
+      <path d="M 1060 300 l -15 10"/>
+      <path d="M 1058 334 l 14 9"/>
+    </g>
+    <path d="M 1060 196 L 1060 158" stroke="#3D6249" stroke-width="3"/>
+    <path d="M 1060 158 C 1028 142 1002 152 996 174 C 1016 186 1046 180 1060 158 Z"
+          fill="#3D6249" fill-opacity="0.13" stroke="#3D6249" stroke-width="2"/>
+    <path d="M 1060 158 C 1092 142 1118 152 1124 174 C 1104 186 1074 180 1060 158 Z"
+          fill="#3D6249" fill-opacity="0.13" stroke="#3D6249" stroke-width="2"/>
+    <path d="M 1060 158 C 1042 162 1022 168 1004 174" stroke="#3D6249" stroke-width="1.2"/>
+    <path d="M 1060 158 C 1078 162 1098 168 1116 174" stroke="#3D6249" stroke-width="1.2"/>
+  </g>
+
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" fill="#17211B" text-anchor="middle">
+    <g font-size="17" letter-spacing="1.4">
+      <text x="130" y="384">DRY SEED</text>
+      <text x="360" y="384">IMBIBED</text>
+      <text x="590" y="384">RADICLE</text>
+      <text x="820" y="384">HYPOCOTYL</text>
+      <text x="1060" y="384">COTYLEDONS</text>
+    </g>
+    <g font-size="15" fill="#9E4A2E" letter-spacing="1">
+      <text x="130" y="410">HOUR 0</text>
+      <text x="360" y="410">HOUR 8</text>
+      <text x="590" y="410">HOUR 24</text>
+      <text x="820" y="410">HOUR 48</text>
+      <text x="1060" y="410">HOUR 96</text>
+    </g>
+  </g>
+</svg>

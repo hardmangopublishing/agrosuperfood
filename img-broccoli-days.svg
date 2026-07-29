@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 380" role="img"
+     aria-labelledby="bdt bdd" width="1120" height="380">
+  <title id="bdt">Five day timeline for a batch of broccoli sprouts</title>
+  <desc id="bdd">A horizontal timeline marking five points in a broccoli sprout batch: the short four to six hour soak, the day the seed coat splits, the day clumping becomes the main risk, the day roots lengthen, and the harvest window at first green in the leaf tips.</desc>
+
+  <path d="M 70 232 L 1050 232" stroke="#3D6249" stroke-width="1.4"/>
+
+  <g fill="none" stroke="#17211B" stroke-width="2.2" stroke-linecap="round">
+    <circle cx="150" cy="196" r="13"/>
+    <circle cx="370" cy="194" r="15"/>
+    <path d="M 370 209 C 368 218 374 224 370 231" stroke="#9E4A2E" stroke-width="2.6"/>
+
+    <circle cx="590" cy="190" r="15"/>
+    <circle cx="614" cy="200" r="13"/>
+    <circle cx="568" cy="203" r="12"/>
+    <path d="M 590 205 C 588 216 596 224 590 232" stroke="#9E4A2E" stroke-width="2.6"/>
+
+    <circle cx="810" cy="180" r="14"/>
+    <path d="M 810 194 C 806 206 816 218 808 232" stroke="#9E4A2E" stroke-width="2.6"/>
+    <path d="M 809 208 l -11 7" stroke="#9E4A2E" stroke-width="1.4"/>
+
+    <circle cx="1000" cy="162" r="13"/>
+    <path d="M 1000 175 C 996 192 1006 210 998 232" stroke="#9E4A2E" stroke-width="2.6"/>
+    <path d="M 999 196 l -11 7" stroke="#9E4A2E" stroke-width="1.4"/>
+    <path d="M 1002 214 l 11 7" stroke="#9E4A2E" stroke-width="1.4"/>
+    <path d="M 1000 149 C 986 140 976 145 974 156 C 984 161 996 158 1000 149 Z"
+          fill="#3D6249" fill-opacity="0.2" stroke="#3D6249" stroke-width="1.8"/>
+    <path d="M 1000 149 C 1014 140 1024 145 1026 156 C 1016 161 1004 158 1000 149 Z"
+          fill="#3D6249" fill-opacity="0.2" stroke="#3D6249" stroke-width="1.8"/>
+  </g>
+
+  <!-- clumping risk band -->
+  <rect x="500" y="244" width="200" height="6" fill="#9E4A2E"/>
+  <text x="600" y="278" font-family="IBM Plex Mono, ui-monospace, monospace"
+        font-size="14" fill="#9E4A2E" text-anchor="middle" letter-spacing="0.6">CLUMPING RISK PEAKS HERE</text>
+  <text x="600" y="300" font-family="IBM Plex Mono, ui-monospace, monospace"
+        font-size="13" fill="#3D6249" text-anchor="middle">rinse hard, rotate the jar after every drain</text>
+
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" text-anchor="middle">
+    <g font-size="16" fill="#9E4A2E" letter-spacing="1.2">
+      <text x="150" y="336">SOAK</text><text x="370" y="336">DAY 1</text>
+      <text x="590" y="336">DAY 2</text><text x="810" y="336">DAY 3</text>
+      <text x="1000" y="336">DAY 4 TO 5</text>
+    </g>
+    <g font-size="13" fill="#17211B">
+      <text x="150" y="360">4 to 6 hours</text><text x="370" y="360">coat splits</text>
+      <text x="590" y="360">mass tightens</text><text x="810" y="360">roots lengthen</text>
+      <text x="1000" y="360">harvest window</text>
+    </g>
+  </g>
+</svg>
