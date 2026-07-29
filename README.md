@@ -62,6 +62,7 @@ tell you exactly which file and which rule.
 | Affiliate rails | No ASIN or tag outside `products.json`. No Amazon-hosted imagery. |
 | Illustrations | Every SVG needs a viewBox, a title, a desc, and unique alt text in `illustrations.json`. Fifteen kilobyte ceiling each, sixty per page. |
 | Structured data | Article JSON-LD and a lang attribute on every page. |
+| Headings | Exactly one h1 per page, and no empty eyebrow or standfirst elements. |
 
 `python3 preflight.py --final` additionally enforces the complete six hub and
 sixty spoke build. It will fail until the site is finished, which is the point.

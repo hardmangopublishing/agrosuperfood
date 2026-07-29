@@ -145,6 +145,10 @@ def check_build(docs):
         broken = [h for h in re.findall(r'(?:href|src)="([^":]+)"', t)
                   if not h.startswith(("#", "//")) and h not in on_disk]
         if broken: fail(f"{f}: broken local reference(s) {sorted(set(broken))}")
+        h1s = len(re.findall(r"<h1>", t))
+        if h1s != 1: fail(f"{f}: {h1s} h1 elements; expected exactly 1")
+        if re.search(r'<p class="(eyebrow|standfirst)"></p>', t):
+            fail(f"{f}: empty eyebrow or standfirst element rendered")
         if 'lang="en"' not in t: fail(f"{f}: no lang attribute")
         if "application/ld+json" not in t: fail(f"{f}: no structured data")
     if not FAILS: ok("disclosure, structured data and local links verified on every page")

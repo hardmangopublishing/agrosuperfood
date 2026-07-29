@@ -251,9 +251,9 @@ def shell(meta, content, nav_items, extra_rail=""):
 </div></header>
 
 <main class="sheet">
-  <p class="eyebrow">{eyebrow}</p>
+  {f'<p class="eyebrow">{eyebrow}</p>' if eyebrow else ''}
   <h1>{H.escape(title)}</h1>
-  <p class="standfirst">{H.escape(desc)}</p>
+  {f'<p class="standfirst">{H.escape(desc)}</p>' if desc else ''}
   <p class="byline">Updated {meta.get("updated", "")}</p>
   <p class="disclosure">{linked_disclosure(TAG)}</p>
   {content}
@@ -286,6 +286,8 @@ def main():
 
     print(f"building {len(docs)} page(s)")
     for meta, body in docs:
+        # the shell renders the title as h1; drop the body's duplicate
+        body = re.sub(r"^\s*#\s+.*?\n", "", body, count=1)
         content = render(body, illos)
         rail = ""
         if meta.get("kind") == "hub":
@@ -317,7 +319,8 @@ def main():
         "updated": str(date.today()),
     }
     idx_body = (
-        "<p>Every guide here is written to be used in a kitchen rather than skimmed. "
+        figure("img-six-hubs", illos)
+        + "<p>Every guide here is written to be used in a kitchen rather than skimmed. "
         "Each one carries the numbers, the failure modes, and the honest downside, "
         "because the parts people leave out are the parts that decide whether it works.</p>"
         f'<div class="hublist">{cards}</div>'

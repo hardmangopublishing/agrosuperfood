@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 380" role="img"
+     aria-labelledby="shT shD" width="1180" height="380">
+  <title id="shT">The six subjects covered on this site, drawn as a single line of vessels</title>
+  <desc id="shD">Six drawings in a row: a sprouting jar with a shoot, a glass of juice, a drying tray of sliced fruit, a fermenting jar with an airlock, a jar of powder with a spoon, and a mill with wheat. Terracotta marks what is alive or changing; deep green marks the vessels.</desc>
+
+  <path d="M 40 268 L 1140 268" stroke="#3D6249" stroke-width="1.2"/>
+
+  <!-- 1 sprouting jar -->
+  <g fill="none" stroke="#17211B" stroke-width="2.8" stroke-linejoin="round">
+    <path d="M 78 268 L 78 152 Q 78 138 92 134 L 92 116 L 148 116 L 148 134
+             Q 162 138 162 152 L 162 268 Q 162 276 154 276 L 86 276 Q 78 276 78 268 Z"/>
+    <rect x="90" y="106" width="60" height="9" stroke-width="2.2"/>
+  </g>
+  <path d="M 82 208 L 158 208 L 158 264 Q 158 272 150 272 L 90 272 Q 82 272 82 264 Z"
+        fill="#3D6249" fill-opacity="0.24"/>
+  <path d="M 120 208 C 116 186 128 172 120 152" stroke="#9E4A2E" stroke-width="3" fill="none"/>
+  <path d="M 120 152 C 106 142 96 148 96 160 C 106 166 116 160 120 152 Z"
+        fill="#3D6249" fill-opacity="0.3" stroke="#3D6249" stroke-width="2"/>
+  <path d="M 120 152 C 134 142 144 148 144 160 C 134 166 124 160 120 152 Z"
+        fill="#3D6249" fill-opacity="0.3" stroke="#3D6249" stroke-width="2"/>
+
+  <!-- 2 glass of juice -->
+  <g fill="none" stroke="#17211B" stroke-width="2.8" stroke-linejoin="round">
+    <path d="M 268 124 L 342 124 L 330 268 Q 329 276 320 276 L 290 276 Q 281 276 280 268 Z"/>
+  </g>
+  <path d="M 274 172 L 336 172 L 328 266 Q 327 272 320 272 L 290 272 Q 283 272 282 266 Z"
+        fill="#9E4A2E" fill-opacity="0.24"/>
+  <path d="M 274 172 L 336 172" stroke="#9E4A2E" stroke-width="2.4"/>
+  <g fill="none" stroke="#3D6249" stroke-width="2.2" stroke-linecap="round">
+    <path d="M 305 124 L 305 96"/>
+    <path d="M 305 100 C 292 90 284 96 286 106 C 296 111 302 107 305 100 Z"
+          fill="#3D6249" fill-opacity="0.28"/>
+  </g>
+
+  <!-- 3 drying tray -->
+  <g fill="none" stroke="#17211B" stroke-width="2.8" stroke-linejoin="round">
+    <path d="M 428 224 L 592 224 L 578 268 L 442 268 Z"/>
+    <path d="M 428 178 L 592 178 L 578 222 L 442 222 Z"/>
+  </g>
+  <g fill="#9E4A2E" fill-opacity="0.26" stroke="#9E4A2E" stroke-width="1.8">
+    <ellipse cx="466" cy="200" rx="17" ry="8"/><ellipse cx="510" cy="200" rx="17" ry="8"/>
+    <ellipse cx="554" cy="200" rx="17" ry="8"/>
+    <ellipse cx="474" cy="246" rx="17" ry="8"/><ellipse cx="518" cy="246" rx="17" ry="8"/>
+    <ellipse cx="562" cy="246" rx="17" ry="8"/>
+  </g>
+  <g stroke="#3D6249" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M 448 150 L 448 132 M 442 142 L 448 132 L 454 142"/>
+    <path d="M 510 150 L 510 128 M 504 138 L 510 128 L 516 138"/>
+    <path d="M 572 150 L 572 132 M 566 142 L 572 132 L 578 142"/>
+  </g>
+
+  <!-- 4 fermenting jar -->
+  <g fill="none" stroke="#17211B" stroke-width="2.8" stroke-linejoin="round">
+    <path d="M 658 268 L 658 148 Q 658 134 672 130 L 742 130 Q 756 134 756 148
+             L 756 268 Q 756 276 748 276 L 666 276 Q 658 276 658 268 Z"/>
+    <rect x="664" y="118" width="86" height="12" rx="2" fill="#1F3A2B"/>
+    <path d="M 698 118 L 698 92 L 716 92 L 716 118"/>
+  </g>
+  <path d="M 662 190 L 752 190 L 752 266 Q 752 272 746 272 L 668 272 Q 662 272 662 266 Z"
+        fill="#9E4A2E" fill-opacity="0.16"/>
+  <path d="M 662 190 L 752 190" stroke="#9E4A2E" stroke-width="2.4"/>
+  <path d="M 668 214 L 746 214 L 746 264 Q 746 270 740 270 L 674 270 Q 668 270 668 264 Z"
+        fill="#3D6249" fill-opacity="0.26"/>
+  <g fill="none" stroke="#9E4A2E" stroke-width="1.8">
+    <circle cx="686" cy="176" r="5"/><circle cx="712" cy="164" r="4"/>
+    <circle cx="732" cy="178" r="5"/>
+  </g>
+
+  <!-- 5 powder jar -->
+  <g fill="none" stroke="#17211B" stroke-width="2.8" stroke-linejoin="round">
+    <path d="M 858 268 L 858 156 L 934 156 L 934 268 Q 934 276 926 276 L 866 276 Q 858 276 858 268 Z"/>
+    <rect x="852" y="142" width="88" height="13" rx="2" fill="#1F3A2B"/>
+  </g>
+  <path d="M 862 202 L 930 202 L 930 266 Q 930 272 924 272 L 868 272 Q 862 272 862 266 Z"
+        fill="#9E4A2E" fill-opacity="0.30"/>
+  <path d="M 862 202 L 930 202" stroke="#9E4A2E" stroke-width="2.2"/>
+  <g fill="none" stroke="#17211B" stroke-width="2.4" stroke-linecap="round">
+    <path d="M 952 132 L 972 176"/>
+    <ellipse cx="948" cy="124" rx="15" ry="9" transform="rotate(-24 948 124)"/>
+  </g>
+  <g fill="#9E4A2E" fill-opacity="0.5" stroke="none">
+    <circle cx="944" cy="140" r="2.4"/><circle cx="952" cy="152" r="2"/>
+    <circle cx="940" cy="158" r="1.8"/>
+  </g>
+
+  <!-- 6 mill and grain -->
+  <g fill="none" stroke="#17211B" stroke-width="2.8" stroke-linejoin="round">
+    <path d="M 1032 132 L 1104 132 L 1090 178 L 1046 178 Z"/>
+    <path d="M 1046 178 L 1090 178 L 1090 236 L 1046 236 Z"/>
+    <path d="M 1030 236 L 1106 236 L 1106 250 L 1030 250 Z"/>
+    <path d="M 1044 250 L 1092 250 L 1084 272 L 1052 272 Z"/>
+  </g>
+  <g fill="#3D6249" fill-opacity="0.28" stroke="#3D6249" stroke-width="1.6">
+    <ellipse cx="1050" cy="146" rx="8" ry="5"/><ellipse cx="1068" cy="142" rx="8" ry="5"/>
+    <ellipse cx="1086" cy="148" rx="8" ry="5"/><ellipse cx="1060" cy="158" rx="8" ry="5"/>
+    <ellipse cx="1078" cy="160" rx="8" ry="5"/>
+  </g>
+  <path d="M 1048 250 L 1088 250 L 1082 270 L 1054 270 Z" fill="#9E4A2E" fill-opacity="0.24"/>
+  <g stroke="#9E4A2E" stroke-width="1.8" fill="none">
+    <path d="M 1068 200 L 1068 232"/>
+    <path d="M 1058 210 L 1058 232"/><path d="M 1078 210 L 1078 232"/>
+  </g>
+
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" font-size="14" fill="#3D6249"
+     text-anchor="middle" letter-spacing="0.9">
+    <text x="120" y="318">SPROUT</text>
+    <text x="305" y="318">JUICE</text>
+    <text x="510" y="318">DRY</text>
+    <text x="707" y="318">FERMENT</text>
+    <text x="896" y="318">GRIND</text>
+    <text x="1068" y="318">MILL</text>
+  </g>
+  <text x="590" y="356" font-family="IBM Plex Mono, ui-monospace, monospace" font-size="13"
+        fill="#17211B" text-anchor="middle">Six ways to get more out of what you already buy.</text>
+</svg>
