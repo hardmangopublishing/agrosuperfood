@@ -44,6 +44,6 @@ Everything here is written to be used. That would have mattered to him more than
 
 ## Corrections welcome
 
-The place and the year I have: Castrofilippo, 1979. What I do not have is the mule's name, and I would like it.
+The place and the year I have: Castrofilippo, 1979. The mule had no name that anyone remembers, which is its own small fact about what it was for. It was not a pet. It was how the load got up the hill.
 
 If you knew him, or knew us, and something here is wrong, tell me and I will change it. Some things are worth getting right.
