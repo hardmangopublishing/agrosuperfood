@@ -162,3 +162,20 @@ footer.site a { color: var(--lichen); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* ---------- photographs ---------- */
+figure.photo { margin: 2.6rem 0; }
+figure.photo img {
+  border: 1px solid var(--moss);
+  box-shadow: 0 2px 0 var(--paper-2), 0 12px 28px rgba(0,0,0,0.18);
+}
+figure.photo figcaption { border-left-color: var(--moss); font-style: normal; }
+
+/* ---------- footer dedication ---------- */
+footer.site .dedication {
+  margin-top: 1.1rem; padding-top: 0.9rem;
+  border-top: 1px solid rgba(126,156,133,0.32);
+  letter-spacing: 0.04em;
+}
+footer.site .dedication a { color: var(--clay-lite); text-decoration: none; }
+footer.site .dedication a:hover { text-decoration: underline; }
